@@ -74,3 +74,12 @@ command line options that exist in `default.py`.
 
 Submitting the default solution without modification will get you
 zero marks.
+
+## Data files
+
+The data files provided are:
+
+* `data/count_1w.txt` -- counts taken from the Google n-gram corpus with 1TB tokens
+* `data/input` -- input files `dev.txt` and `test.txt`
+* `data/reference/dev.out` -- the reference output for the `dev.txt` input file
+
