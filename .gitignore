@@ -10,7 +10,9 @@ __pycache__
 .ipynb_checkpoints
 source.zip
 output.zip
+ensegment/answer/baseline.py
 ensegment/answer/ensegment.py
 ensegment/answer/ensegment.ipynb
+zhsegment/answer/baseline.py
 zhsegment/answer/zhsegment.py
 zhsegment/answer/zhsegment.ipynb
