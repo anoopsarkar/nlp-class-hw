@@ -138,7 +138,7 @@ class ZipOutput:
 if __name__ == '__main__':
     #zipout_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
     optparser = optparse.OptionParser()
-    optparser.add_option("-r", "--run", dest="run_program", default='ensegment.py', help="run this program against testcases [default: ensegment.py]")
+    optparser.add_option("-r", "--run", dest="run_program", default='zhsegment.py', help="run this program against testcases [default: zhsegment.py]")
     optparser.add_option("-x", "--pythonbin", dest="python_bin", default='venv/bin/python3', help="run this binary of Python to run the program [default: python3]")
     optparser.add_option("-a", "--answerdir", dest="answer_dir", default='answer', help="answer directory [default: answer]")
     optparser.add_option("-i", "--inputdir", dest="input_dir", default=os.path.join('data', 'input'), help="testcases directory [default: data/input]")
