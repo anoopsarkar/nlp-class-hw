@@ -1,6 +1,7 @@
+__pycache__
+.DS_Store
+venv
 log
 output
-answer/ensegment.py
-answer/ensegment.ipynb
 output.zip
 source.zip
