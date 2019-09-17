@@ -57,7 +57,7 @@ class ZipOutput:
         if os.path.exists(run_python) and os.access(run_python, os.X_OK):
             argv = [ run_python, run_program_path, '-i', filename ]
         else:
-            print("Did not find {}. Are you sure you set up a virtualenv? Run `python3 -m venv venv` in the current directory.", file=sys.stderr)
+            print("Did not find {}. Are you sure you set up a virtualenv? Run `python3 -m venv venv` in the current directory.".format(self.python_bin), file=sys.stderr)
             if os.path.exists(self.run_program_path) and os.access(self.run_program_path, os.X_OK):
                 argv = [ run_program_path, '-i', filename ]
             else:
