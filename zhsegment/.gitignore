@@ -1,0 +1,7 @@
+__pycache__
+.DS_Store
+venv
+log
+output
+output.zip
+source.zip
