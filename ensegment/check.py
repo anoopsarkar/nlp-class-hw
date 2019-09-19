@@ -68,9 +68,14 @@ class Check:
                 with open(testfile_path, 'rb') as ref:
                     ref_data = [str(x).strip() for x in ref.read().splitlines()]
                     output_data = [str(x).strip() for x in zip_data[testfile_key].splitlines()]
-                    logging.info("ref, output {}".format(list(zip(ref_data, output_data))))
-                    tally = ensegment_check.fscore(ref_data, output_data)
-                    logging.info("score {}: {}".format(testfile_key, tally))
+                    output_data = output_data[:len(ref_data)]
+                    if len(ref_data) == len(output_data):
+                        logging.info("ref, output {}".format(list(zip(ref_data, output_data))))
+                        tally = ensegment_check.fscore(ref_data, output_data)
+                        logging.info("score {}: {}".format(testfile_key, tally))
+                    else:
+                        logging.info("length mismatch between output and reference")
+                        tally = 0.
 
             self.perf[path_key] = tally
 
