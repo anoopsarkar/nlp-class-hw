@@ -25,7 +25,7 @@ class Check:
     def __init__(self, ref_dir):
         self.ref_dir = ref_dir                  # directory where references are placed
         self.linesep = "{}".format(os.linesep) # os independent line separator
-        self.path_score = {'dev.out': 1, 'test.out': 2} # set up this dict to score different testcases differently
+        self.path_score = {'dev.out': 1, 'test.out': 1} # set up this dict to score different testcases differently
         self.default_score = 1                  # default score if it does not exist in path_values
 
         # perf is a dict used to keep track of total score based on testcase type with three keys:
