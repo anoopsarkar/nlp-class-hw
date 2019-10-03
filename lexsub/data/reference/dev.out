@@ -1,0 +1,1703 @@
+side.n	team
+side.n	for_us ally part responsibility position standpoint
+side.n	part perspective view aspect
+side.n	team contingent you from_you faction
+side.n	against flank dividing_line hand
+side.n	other_hand surface conversely instead
+side.n	faction position team
+side.n	bank flank divide shore edge
+side.n	aspect area part facet
+side.n	boundary fringe position edge
+tell.v	said_to inform
+tell.v	inform explain_to
+tell.v	inform explain_to notify
+tell.v	say_to assure
+tell.v	inform say_to assure notify
+tell.v	say_to assure
+tell.v	say_to order instruct assure
+tell.v	convey_to inform_me_of let_me_know communicate explain inform
+tell.v	say_to assure inform
+tell.v	recount describe impart narrate
+terrible.a	awful severe horrible
+terrible.a	awful bad appalling dreadful very_bad
+terrible.a	awful very_bad appalling negative formidable
+terrible.a	awful dreadful appalling very_bad
+terrible.a	awful poignant appalling shocking dreadful horrific
+terrible.a	awful shocking dreadful unpleasant
+terrible.a	awful dreadful atrocious
+terrible.a	fearsome frightening horrifying terrifying awful formidable
+terrible.a	awful deplorable bad
+terrible.a	awful bad shocking dreadful abhorrent
+think.v	believe be_of_the_opinion recommend feel
+think.v	believe assume suspect feel reckon
+think.v	believe assume feel
+think.v	believe consider reason expect
+think.v	consider reason
+think.v	believe be_of_the_opinion reckon
+think.v	consider contemplate reason analyse
+think.v	believe reckon guess suppose expect
+think.v	believe consider assume suppose
+think.v	believe expect imagine assume anticipate
+thus.r	so this
+thus.r	therefore accordingly so consequently
+thus.r	so therefore consequently hence
+thus.r	so this
+thus.r	therefore accordingly consequently
+thus.r	therefore consequently
+thus.r	therefore consequently hence
+thus.r	therefore accordingly consequently
+thus.r	so therefore accordingly in_this_manner in_this_way consequently
+thus.r	so therefore there consequently
+wind.n	breeze air_current air_flow
+wind.n	air_current wind_power natural_air_movement
+wind.n	air_current gust natural_air_movement air
+wind.n	gust breeze blast
+wind.n	air_current wind_power natural_air_movement
+wind.n	air_current fart natural_air_movement flatulence gas
+wind.n	breeze air_current gust natural_air_movement
+wind.n	air_current wind_power natural_air_movement
+wind.n	breeze gust
+wind.n	vagary gust whirlwind current
+charge.v	levy require impose demand
+charge.v	run rush storm dash
+charge.v	indict accuse_of accuse
+charge.v	recharge supply_electricity charge_up
+charge.v	indict accuse_of accuse
+charge.v	run storm rush fly dash
+charge.v	demand cost sell_for ask
+charge.v	indict accuse_having accuse_of accuse
+charge.v	levy impose take demand
+charge.v	attack rush_at
+civil.a	ordinary_private noncriminal private civic citizen
+civil.a	public elected civic state
+civil.a	noncriminal ordinary_private civic state
+civil.a	polite courteous cordial inoffensive
+civil.a	domestic internal people's
+civil.a	general public polite civic nongovernmental
+civil.a	well_mannered friendly thoughtful benevolent cordial
+civil.a	community citizens' personal civic citizen individual
+civil.a	polite friendly well_mannered public ordinary cultured
+civil.a	polite social courteous cordial
+clean.v	tidy clear purge empty
+clean.v	tidy clear scrape
+clean.v	cleanse clear correct mend rectify
+clean.v	wipe remove
+clean.v	tidy finish clear restore complete
+clean.v	empty
+clean.v	wash freshen_up wash_up spruce_up tidy_up
+clean.v	win profit_greatly clear prosper accumulate make_a_fortune
+clean.v	cleanse disinfect purify clear
+clean.v	clear tidy correct remedy fix repair
+coach.n	carriage
+coach.n	trainer
+coach.n	trainer counsellor instructor teacher
+coach.n	trainer teacher tutor instructor
+coach.n	trainer bus
+coach.n	bus travel_bus
+coach.n	bus transport trainer carriage
+coach.n	carriage car
+coach.n	bus carriage
+coach.n	trainer tutor teacher
+dry.a	arid drought parched rainless
+dry.a	run_out evaporate out become_empty empty
+dry.a	arid waterless
+dry.a	wry low_key facetious impassive understated droll
+dry.a	boring uninteresting unsympathetic dull
+dry.a	boring uninteresting dull
+dry.a	wry deadpan impassive understated tongue_in_cheek droll
+dry.a	dull boring soulless uninteresting flat
+dry.a	alcohol_free teetotal
+dry.a	parched unmoistened desiccated stodgy
+full.a	complete total abundant
+full.a	filled_with packed_with replete_with brimming_with filled
+full.a	complete entire total whole
+full.a	complete total
+full.a	maximum top highest total all_out
+full.a	voluminous overflowing abundant ample generous big gathered complete ruched
+full.a	complete maximum
+full.a	brimming_with filled_with packed_with loaded_with crammed_with covered_with
+full.a	complete whole entire
+full.a	whole complete entire
+heap.n	pile mound
+heap.n	loads tons lots a_lot
+heap.n	pile mound
+heap.n	pile collection category
+heap.n	pile mound
+heap.n	mess bundle wreck pile state
+heap.n	wreck pile mess
+heap.n	pile assortment mess untidy_pile
+heap.n	pile lump wreck mess
+heap.n	pile bin mound
+job.n	duty task role
+job.n	work employment post
+job.n	duty function bit responsibility task role
+job.n	responsibility duty role business
+job.n	piece_of_work assignment task
+job.n	task matter assignment business work
+job.n	employment work functional role
+job.n	post position career role employment
+job.n	employment work
+job.n	role employment contract place
+late.r	well_into at_a_later_hour
+late.r	recently lately current recent
+late.r	tardy behind_time behind_schedule after_normal_time overdue after_the_usual_time
+late.r	delayed tardy behind behind_time behind_schedule
+late.r	far_on near_end near_the_end_of well_into latterly last_minute
+late.r	end_of_the at_the_end_of_the end_of latter_part_of
+late.r	delayed behind tardy not_on_time behind_time behind_schedule
+late.r	recently recent
+late.r	end_of_the latter_part_of At_the_end_of_the
+late.r	after_the_usual behind_time older older_than_the_norm after_the_normal_time at_a_later_stage
+new.a	original recent novel different additional
+new.a	different further additional fresh
+new.a	fresh different additional another distinct novel
+new.a	additional fresh younger extra
+new.a	different novel original additional fresh modern
+new.a	fresh novel original current recent
+new.a	latest fresh recently_acquired
+new.a	fresh different additional extra
+new.a	latest succeeding recently_started fresh
+new.a	different fresh other additional
+often.r	frequently regularly
+often.r	frequently recurrently generally commonly
+often.r	frequently sometimes generally at_times commonly
+often.r	frequently sometimes commonly regularly
+often.r	frequently sometimes generally occasionally usually regularly
+often.r	regularly frequently habitually
+often.r	usually frequently generally regularly
+often.r	frequently much regularly
+often.r	frequently generally usually sometimes commonly
+often.r	frequently regularly
+only.r	just merely
+only.r	just merely no_more_than barely
+only.r	just merely simply_to
+only.r	solely exclusively purely uniquely
+only.r	solely exclusively uniquely
+only.r	recently just merely hardly just_now barely
+only.r	exclusively just solely nothing_but
+only.r	just singularly solely purely
+only.r	just merely
+only.r	solely exclusively
+pulse.n	beat emanation beep sound
+pulse.n	heart lifeblood energy stimulus centre force
+pulse.n	heartbeat heartrate heartbeat_rate
+pulse.n	rhythm throb beat throbbing
+pulse.n	throbbing reflex
+pulse.n	beat rhythm throb
+pulse.n	edible_seed legume
+pulse.n	edible_seed legume
+pulse.n	wave vibration beat throb
+pulse.n	heartbeat hearbeat heartbeat_rate
+put.v	gather assemble collate collect join
+put.v	lay_down send settle place allow leave
+put.v	place position
+put.v	give give_to propound provide place present
+put.v	present advance propose place
+put.v	express propound present give phrase state
+put.v	place make remove dismiss leave
+put.v	place stick fix position fasten
+put.v	place make get
+put.v	set lay allay place put_an_end_to nullify
+really.r	truly genuinely very absolutely definitely unquestionably
+really.r	very truly extremely exceptionally
+really.r	very truly extremely exceptionally
+really.r	actually in_fact properly effectively
+really.r	truly actually definitely honestly
+really.r	truly definitely genuinely actually
+really.r	truly indeed definitely genuinely actually
+really.r	totally truly completely absolutely unreservedly
+really.r	actually in_fact absolutely
+really.r	actually absolutely truly
+return.v	bring_back take_back send_back give_back
+return.v	come_back revert revisit go
+return.v	reply_to respond_to
+return.v	go_back revert retrace get_back revisit
+return.v	retrieve get get_back go_back_to
+return.v	go_back revert resume regress
+return.v	send_back
+return.v	go_back revert get_back repeat revisit
+return.v	earn yield make produce realize
+return.v	give_back yield earn realize
+shed.v	moult discard drop cast_off
+shed.v	lose relinquish discard
+shed.v	throw reveal shine
+shed.v	give spread shine radiate scatter emit
+shed.v	lose get_rid_of discarding
+shed.v	lose get_rid_of discard drop cast_off
+shed.v	spread pass transmit emit
+shed.v	drop throw disperse discard give
+shed.v	lose spill give
+shed.v	radiate give_off emit spread
+softly.r	quietly gently faintly
+softly.r	delicately lightly gently finely
+softly.r	gently daintily lightly
+softly.r	gently quietly slightly subtly tenderly
+softly.r	gently quietly slightly subtly tenderly
+softly.r	gently carefully delicately lightly
+softly.r	gently quietly faintly
+softly.r	quietly gently indifferently subtly
+softly.r	gently lightly
+softly.r	quietly faintly
+special.a	unique particular specifically_designed peculiar tailored
+special.a	particular atypical exceptional anomalous abnormal extraordinary
+special.a	exceptional wonderful extraordinary memorable magical
+special.a	particular atypical anomalous abnormal selected
+special.a	important distinguished eminent
+special.a	exceptional memorable unique wonderful outstanding
+special.a	particular additional extra
+special.a	particular exceptional additional extra
+special.a	valued exceptional premium treasured quality exclusive
+special.a	exceptional kind wonderful remarkable lovely important
+way.n	manner fashion
+way.n	respect aspect sense
+way.n	means method practice
+way.n	respect aspect sense characteristic
+way.n	incidentally by while_on_the_subject
+way.n	manner method
+way.n	direction what_the_result_would_be how route
+way.n	route journey passage
+way.n	manner technique method
+way.n	far so some
+about.r	regarding discussed of
+about.r	approximately around
+about.r	concerning regarding dealing_with concerned_with
+about.r	approximately somewhat roughly more_or_less nearly
+about.r	arise happen round occur
+about.r	approximately roughly around
+about.r	of consider regarding concerning
+about.r	around here_and_there
+about.r	of consider cope_with
+bug.n	listening_device tap surveillance spying_device surveillance_device
+bug.n	fault gremlin defect code_defect
+bug.n	germ virus infection
+bug.n	problem coding_error gremlin defect code_defect
+bug.n	insect infection
+bug.n	insect
+bug.n	insect
+bug.n	insect
+bug.n	error defect virus code_defect fault
+bug.n	addiction become_obsessed_with obsession virus fever craze
+bull.n	male_bovine male_cow bovine_animal cow
+bull.n	rising growing bovine_animal booming
+bull.n	male adult_male
+bull.n	rubbish nonsense
+bull.n	fearlessly_tackled_the_problem animal grasped_the_nettle act_decisively adult_male_cow
+bull.n	edict warrant document
+bull.n	target be_accurate
+bull.n	suitor male powerful_male stud stag
+bull.n	centre centre_circle bulls_eye
+bull.n	rubbish crap nonsense load_of_rubbish
+education.n	learning tuition teaching schooling
+education.n	training
+education.n	learning schooling study
+education.n	learning knowledge study schooling training
+education.n	learning schooling instruction
+education.n	learning erudition intellect educated
+education.n	training schooling place
+education.n	schooling college learning
+education.n	schooling teaching
+education.n	teaching schooling bringing_up training
+girl.n	woman female gal
+girl.n	woman gal lass female
+girl.n	female female_children female_child
+girl.n	child woman lass miss young_woman
+girl.n	child she gal
+girl.n	child woman gal young_woman
+girl.n	female lass young_woman female_child
+girl.n	female
+girl.n	young_woman woman young_female child
+girl.n	young_woman female
+good.a	at_least minimum reasonable substantial full comfortable
+good.a	friendliness pleasant cordiality amiable happiness
+good.a	large significant satisfactory substantial
+good.a	effective easy satisfactory favourable excellent
+good.a	pleasant happy fun enjoyable nice
+good.a	well_behaved pleasant
+good.a	satisfactory favourable considerable healthy substantial respectable decent
+good.a	thorough effective commendable beneficial excellent
+good.a	effective commendable competent satisfactory excellent
+good.a	esteem standing pleasant reputation character excellent well_regarded
+hard.r	closely intently carefully persistently
+hard.r	forcefully strenuously firmly strongly aggressive
+hard.r	strenuously diligently arduously intensely intensively
+hard.r	determinedly keenly forcefully sufficiently persistently
+hard.r	carefully closely intently
+hard.r	badly forcefully harshly severely
+hard.r	forcefully strenuously strongly determinedly
+hard.r	carefully intensely seriously earnestly
+hard.r	forcefully firmly tightly strongly
+hard.r	forcefully violently fiercely heavily firmly
+heavy.a	weighty massive
+heavy.a	excessive regular severe constant profuse extensive serious frequent
+heavy.a	harsh big severe weighty serious tough
+heavy.a	weighty onerous considerable costly wieldy
+heavy.a	weighty strong wide_ranging substantial extensive serious
+heavy.a	worst most_abundant strongest severe weighty wild most_intense
+heavy.a	fat weighty stout ample overweight
+heavy.a	weighty tedious dark difficult laboured serious
+heavy.a	excessive extensive abundant frequent
+heavy.a	severe serious excessive hard
+instead.r	alternatively as_an_alternative
+instead.r	rather alternatively in_preference
+instead.r	in_place rather_than in_preference_to
+instead.r	rather_than in_place in_preference_to
+instead.r	rather in_its_place in_lieu but
+instead.r	alternatively rather alternately
+instead.r	as_an_alternative in_its_place alternatively
+instead.r	rather in_preference alternatively
+instead.r	rather in_preference in_place_of_this
+instead.r	rather in_its_place alternatively
+live.a	living
+live.a	living animate breathing real
+live.a	performing performed
+live.a	in_real_time as_it_happened direct
+live.a	real living existent
+live.a	living
+live.a	functioning operative active working sustainable realtime
+live.a	charged connected active powered
+live.a	in_real_time on_the_spot as_it_happens
+live.a	active viewable circulated running showing online
+mass.n	public crowd people majority populace
+mass.n	volume climax means crucial_level critical_level critical_point
+mass.n	quantity shock splash conglomeration accumulation host bulk
+mass.n	crowd majority throng
+mass.n	weight magnitude expanse bulk extent
+mass.n	majority proletariat main_population multitude common_people
+mass.n	people ordinary_people majority public main_population multitude
+mass.n	body magnitude weight aggregate bulk
+mass.n	weight density bulk
+mass.n	the_service the_Eucharist the_celebration_of_the_Eucharist
+match.n	game
+match.n	correspondence correlation hit association equivalent counterpart
+match.n	matchstick
+match.n	game
+match.n	game competition event
+match.n	link fit correspondence pairing association choice
+match.n	equal contest rival competitor
+match.n	contest bout competition
+match.n	marriage couple partnership correspondence pairing association
+match.n	fit marriage correlation correspondence association equivalent
+mood.n	state_of_mind disposition demeanour humour temper
+mood.n	atmosphere feeling
+mood.n	humour temperament disposition feeling vibe state_of_mind
+mood.n	disposition outlook mode form mindset manner
+mood.n	mindset state_of_mind frame_of_mind disposition feel_like_writing
+mood.n	atmosphere ambience feeling tone
+mood.n	temperament ambience disposition feeling outlook timbre
+mood.n	feeling attitude temperament vibe mindset
+mood.n	state_of_mind temperament disposition humour attitude
+mood.n	disposition feeling mode mindset attitude modality
+phone.n	telephone
+phone.n	telephone
+phone.n	telephone cellular handset mobile
+phone.n	phonetic_unit speech sonant allophone phoneme sound
+phone.n	sound phonetic_unit sound_unit
+phone.n	mobile_phone mobile telephone mobile_telephone
+phone.n	phonetic_unit telephone sound_unit
+phone.n	telephone
+phone.n	telephone telecommunication telecom
+phone.n	telephone
+post.n	position job role
+post.n	mail postal_service date post_office
+post.n	pole support stake upright
+post.n	support pole stake upright
+post.n	mail mail_carrier
+post.n	message electronic_mail mail announcement electronic_bulletin
+post.n	position the_job employment job
+post.n	support marker target pole boundary upright
+post.n	position job appointment situation role
+post.n	crossing station lookout fence
+pound.n	sixteen_ounces 16_ounces lb
+pound.n	kilo kilogram weight
+pound.n	enclosure lot store
+pound.n	sterling pn
+pound.n	kilo 11.27_kilograms pn
+pound.n	per_ounces lb pn
+pound.n	sterling dollar pn
+pound.n	enclosure kennel prison cage
+pound.n	twelve_shillings quid pn
+pound.n	beat thump hammer throb
+raw.a	untreated unprocessed
+raw.a	untreated unprocessed unspun natural
+raw.a	unprocessed basic rudimentary uncompressed
+raw.a	uncooked
+raw.a	bad unfair_deal poor_treatment harsh harsh_deal unfair
+raw.a	unspoilt unsophisticated basic rough austere natural
+raw.a	natural basic harsh refreshing naked genuine
+raw.a	bloody open untreated excoriated undressed exposed
+raw.a	crude harsh immature untaught inexperienced
+raw.a	unprocessed rudimentary untreated unrefined crude natural
+remainder.n	leftover residual
+remainder.n	rest residue balance
+remainder.n	rest balance
+remainder.n	leftover residue cut_price second_hand surplus
+remainder.n	rest
+remainder.n	rest
+remainder.n	leftover_part leftover residual surplus
+remainder.n	leftover residual surplus
+remainder.n	rest balance
+remainder.n	rest balance surplus
+rude.a	rough basic primitive approximate crude inexact
+rude.a	impolite disrespectful unpleasant ill_mannered
+rude.a	impolite disrespectful unkind abusive ill_mannered
+rude.a	abrupt awkward rough unpleasant surprise savage
+rude.a	crude vulgar lewd coarse naughty wild
+rude.a	crude vulgar lewd coarse naughty
+rude.a	impolite insulting offensive
+rude.a	primitive basic rudimentary crude
+rude.a	raw crude unrefined unfinished
+rude.a	abrupt awkward sudden rough unpleasant
+saint.n	canonised_person figure
+saint.n	angel good holy_person blessed
+saint.n	paladin canonised_person holy_man holy_person
+saint.n	canonised canonised_person pn
+saint.n	angel canonised_person goodman holy_person
+saint.n	angel canonised_person goodman holy_person
+saint.n	canonised_person disciple
+saint.n	angel holy_person
+saint.n	canonised_person martyr
+saint.n	holy_person angel holy_woman prophet
+still.a	calm not_windy windless
+still.a	unmoving motionless calm stationary static
+still.a	quiet motionless hushed calm
+still.a	calm tranquil unruffled smooth
+still.a	motionless unmoving fixed stationary static
+still.a	calm peaceful quiet serene
+still.a	calm peaceful hushed tranquil windless
+still.a	calm peaceful tranquil windless
+still.a	motionless arranged stationary static
+still.a	motionless unmoving nonmoving fixed stationary static
+straight.a	honest forthright direct candid accurate
+straight.a	pure standard plain undiluted genuine true unadulterated
+straight.a	heterosexual
+straight.a	uncurving undeviating level vertical undistorted nondeviating unbent
+straight.a	sorted clear correct right orderly in_order
+straight.a	direct undeviating linear unswerving uncrooked unbent unbending
+straight.a	consecutive in_a_row uninterrupted successive
+straight.a	honest candid forthright direct truthful
+straight.a	undeviating direct smooth continuous uncurved unbending
+strain.n	variety type breed sort extraction
+strain.n	stress burden effort pressure anxiety worry
+strain.n	variety type breed group stock
+strain.n	tune melody music
+strain.n	variety type trace breed form
+strain.n	variety type breed extraction line
+strain.n	pressure stress burden tension
+strain.n	stress pressure burden exertion load
+strain.n	pressure stress burden tension
+strain.n	variety type kind form
+time.n	period point instant occasion
+time.n	point moment deadline juncture
+time.n	period point moment juncture
+time.n	period era the_Victorian_period day age
+time.n	moment occasionally period interval instance occasion
+time.n	era epoch period day age
+time.n	instance occasion chance
+time.n	occasion a_chance space allocation allotment
+time.n	occasion moment chance opportunity instant
+yard.n	garden lot garden property
+yard.n	area lot patio terrace
+yard.n	metre sixty_feet pn
+yard.n	metre several_feet pn
+yard.n	garden enclosure patio lawn
+yard.n	enclosure work_area cul_de_sac lot depot area
+yard.n	enclosure lot area courtyard
+yard.n	playground ground
+yard.n	garden
+apparently.r	seemingly ostensibly
+apparently.r	seemingly looking supposedly
+apparently.r	seemingly plainly obviously evidently clearly
+apparently.r	seemingly ostensibly supposedly
+apparently.r	seemingly evidently palpably
+apparently.r	seemingly ostensibly evidently
+apparently.r	seemingly evidently supposedly
+apparently.r	seemingly manifestly obviously evidently clearly
+apparently.r	seemingly manifestly evidently
+apparently.r	seemingly it_seems evidently
+around.r	about here there in_the_vicinity living alive
+around.r	about here there in_the_vicinity living
+around.r	about surrounding over encircling round
+around.r	about here there in_the_vicinity
+around.r	round about over back_on_itself
+around.r	about approximately roughly close_to
+around.r	about here_and_there
+around.r	about approximately roughly close_to
+around.r	over everywhere through_out_the_world all_over
+around.r	about here in_the_vicinity living alive
+away.r	off depart head_off go leave
+away.r	stealing seizing removing confiscate off and_removing_it
+away.r	repeatedly with_impunity continuously along
+away.r	out continuously off
+away.r	off repel distancing_themselves rebuff
+away.r	apart afar aside
+away.r	out absent gone elsewhere
+away.r	distant apart distance
+away.r	distant off out in_the_future hence
+away.r	continuously ahead along repeatedly
+blue.a	sapphire
+blue.a	sad depressed down unhappy melancholy
+blue.a	pale_grey grey
+blue.a	azure sapphire
+blue.a	conservative pn
+blue.a	speculative sapphire
+blue.a	depressed down sad unhappy melancholy
+blue.a	indecent cobalt shady pornographic naughty
+blue.a	sad depressed
+blue.a	purple grey
+check.v	tick select mark examine
+check.v	verify confirm report make_sure
+check.v	admit register submit put
+check.v	inspect search scrutinise examine
+check.v	tick mark examine select
+check.v	verify confirm note
+check.v	look_at inspect scrutinise test survey take_notice
+check.v	test inspect look_at verify examine
+check.v	verify confirm make_sure investigate
+check.v	scrutinise inspect hand_in
+clear.v	remove sort get_rid_of dealt_with eliminate process
+clear.v	improve change brighten
+clear.v	tidy unblock unobstruct empty
+clear.v	remove open_up move_away cut_down eliminate
+clear.v	above get_above pass over skim
+clear.v	release be_authorised cash be_freed
+clear.v	remove move take_away
+clear.v	exonerate acquit vindicate authorise pardon absolve
+clear.v	remove tidy take
+clear.v	free unblock tidy
+close.n	end conclusion finish
+close.n	end finish conclusion
+close.n	end finish conclusion
+close.n	end conclusion finish
+close.n	end conclusion finish
+close.n	conclusion end finale
+close.n	free shutdown shut conclusion
+close.n	end finish conclusion
+close.n	end conclusion finish
+close.n	end finish ending conclusion finale
+come.v	arrive appear turn_up
+come.v	join unite rally gather combine
+come.v	considering be_about be_connected_with we_consider concern arrive_at
+come.v	arrive appear report emanate proposed_by originate
+come.v	arrive reach get return
+come.v	occur happen be_not_organised take_place arrive
+come.v	spring occur_to_one spring_to_mind occur enter_my
+come.v	arrive occur happen take_place arrive
+come.v	fall lever fall_off leave
+come.v	find notice encounter chance_upon happen
+cry.v	bawl wail weep snivel
+cry.v	call shout wail shriek
+cry.v	call shout demand
+cry.v	call shout wail exclaim yell
+cry.v	weep tear sob
+cry.v	weep sob
+cry.v	weep sob
+cry.v	call shout utter yell
+cry.v	weep bawl sob
+cry.v	shout complain call exclaim yell
+dismiss.v	sack fire lay_off discharge
+dismiss.v	reject discard ignore see deride
+dismiss.v	excuse release let_out
+dismiss.v	sack fire lay_off discharge
+dismiss.v	ignore reject discard see deride
+dismiss.v	reject remove discard
+dismiss.v	send_away excuse release discharge
+dismiss.v	send_away banish dispatch excuse discharge reject
+dismiss.v	sack lay_off fire discharge
+dismiss.v	sack fire lay_off discharge
+draw.v	attract bring summon call focus
+draw.v	take acquire pull extract obtain
+draw.v	use consider employ exploit focus make_use_of take_from
+draw.v	use rely employ exploit focus make_use_of consult take_from
+draw.v	sketch paint depict portray
+draw.v	take receive earn extract get claim derive obtain
+draw.v	use lead_to gather make employ exploit
+draw.v	pull drag haul
+draw.v	take withdraw remove obtain
+draw.v	tie play pit schedule choose select set
+earlier.r	previously initially formerly before
+earlier.r	beforehand sooner prior_to_that by_then before
+earlier.r	sooner in_advance beforehand previously
+earlier.r	sooner beforehand before
+earlier.r	sooner before sooner_than in_advance_of ahead_of
+earlier.r	previously formerly in_previous_times beforehand
+earlier.r	previously before_this beforehand
+earlier.r	before previously beforehand
+earlier.r	previously before
+earlier.r	sooner before beforehand previously
+entirely.r	completely altogether
+entirely.r	completely wholly fully totally
+entirely.r	completely wholly totally
+entirely.r	wholly completely exclusively totally
+entirely.r	completely wholly exclusively totally
+entirely.r	completely wholly exclusively totally
+entirely.r	completely exclusively totally
+entirely.r	completely wholly continuously totally
+entirely.r	completely wholly exclusively totally
+entirely.r	completely wholly totally utterly
+forth.r	on and_the_like
+forth.r	to_and_fro forwards backwards_and_forwards back_and_forth
+forth.r	forward express advance put_forward phrase across
+forth.r	out into_view outward
+forth.r	on onward onwards forward
+forth.r	forward out advance go_out depart leave
+forth.r	on etcetera
+forth.r	out forward
+forth.r	about show make_known forward extract forwards bring_out
+forth.r	on etcetera and_the_like
+fresh.a	novel impertinent forward new raw
+fresh.a	pure airy refreshing uncontaminated new
+fresh.a	new
+fresh.a	recent vivid clear new raw undimmed
+fresh.a	new novel original relevant modern
+fresh.a	new
+fresh.a	original new bright different refreshing novel
+fresh.a	new clean another
+fresh.a	new another raw
+fresh.a	unprocessed nonfrozen uncanned raw
+go.v	endure pass journey travel move be
+go.v	pass walk move travel_down proceed
+go.v	travel take set_off proceed leave
+go.v	take travel
+go.v	start run operate move work running
+go.v	travel journey proceed
+go.v	start operate move proceed work
+go.v	aim reach try take
+go.v	engage_in attempt undertake proceed attack approach start
+go.v	release rest free relax loose
+let.v	allow forgive permit
+let.v	allow agree_to permit authorise
+let.v	allow permit
+let.v	allow permit have authorise
+let.v	rent hire lease
+let.v	allow permit have
+let.v	lessen give release diminish slacken reduce
+let.v	give release free expel
+let.v	tell inform_people advise tell_people inform
+let.v	release give free expel give
+liberal.a	free_thinking progressive free_market humanitarian openhanded noninterventionist
+liberal.a	progressive open_minded free_thinking liberated broad_minded
+liberal.a	generous abundant ample free plentiful
+liberal.a	progressive free open open_minded broad_minded
+liberal.a	generous free abundant ample plentiful
+liberal.a	generous plentiful social abundant
+liberal.a	progressive free_thinking tolerant open_minded broad_minded
+liberal.a	generous plentiful abundant ample
+liberal.a	generous plentiful abundant ample
+liberal.a	left_wing progressive tolerant lenient
+light.a	easy simple gentle easily_digested undemanding
+light.a	pale fair pale
+light.a	unheavy portable not_heavy
+light.a	gentle soft slight faint
+light.a	small_amounts_of slight minor unsubstantial inconsiderable mild casual restricted
+light.a	frothy easy slight simple undemanding trivial facile
+light.a	bright luminous
+light.a	bright easy upbeat less_serious cheerful entertaining
+light.a	gentle soft small slight faint
+light.a	of_little_weight easy lightweight unheavy not_heavy ethereal
+likewise.r	similarly equally
+likewise.r	similarly correspondingly
+likewise.r	similarly equally also
+likewise.r	similarly additionally also
+likewise.r	similarly
+likewise.r	similarly additionally also
+likewise.r	similarly also additionally
+likewise.r	similarly the_same
+likewise.r	similarly additionally also
+likewise.r	similarly also
+now.r	presently currently recently lately nowadays of_late
+now.r	immediately so next instantly
+now.r	presently currently nowadays as_a_result consequently at_present
+now.r	so well perhaps consequently
+now.r	presently currently at_this_time
+now.r	currently nowadays presently at_this_point today
+now.r	currently presently just at_present at_this_stage
+now.r	presently currently lately recently these_days consequently as_a_result
+now.r	today the_present this_moment this_point this_time
+now.r	currently presently lately since these_days consequently
+order.v	arrange sort grade put_in_order rank
+order.v	request buy reserve purchase apply_for
+order.v	instruct tell command
+order.v	arrange sort organise
+order.v	command direct send
+order.v	organise arrange sort plan manage
+order.v	request buy sort purchase apply_for
+order.v	command instruct send tell
+order.v	organise sort arrange
+order.v	command arrange direct instruct mandate
+possibly.r	perhaps maybe
+possibly.r	perhaps reasonably conceivably plausibly feasibly potentially believably
+possibly.r	reasonably necessarily conceivably plausibly feasibly potentially believably
+possibly.r	perhaps maybe at_all potentially
+possibly.r	at_all reasonably necessarily conceivably plausibly feasibly
+possibly.r	perhaps maybe
+possibly.r	perhaps maybe plausibly feasibly
+possibly.r	ever reasonably necessarily conceivably plausibly feasibly believably
+possibly.r	maybe perhaps
+possibly.r	perhaps potentially maybe
+quick.a	fast rapid
+quick.a	short brief swift concise
+quick.a	brief short swift concise cursory
+quick.a	swift fast rapid
+quick.a	fast rapid swift speedy
+quick.a	fast immediate express speedy expeditious prompt rapid
+quick.a	swift fast waste_no_time_in prompt rapid
+quick.a	fast rapid swift speedy
+quick.a	hasty fast swift hurried keen
+quick.a	brief short swift cursory
+see.v	observe notice find perceive
+see.v	look_at watch visit view
+see.v	watch look_at view
+see.v	watch notice observe distinguish perceive
+see.v	understand notice discover establish ascertain find find_out
+see.v	discover consider watch establish ascertain find_out
+see.v	observe discover establish find find_out learn note
+see.v	watch observe detect behold perceive
+see.v	watch witness observe view
+see.v	undergo witness experience observe
+shortly.r	soon just immediately briefly quickly not_long almost_immediately
+shortly.r	soon presently before_long
+shortly.r	briefly abruptly curtly soon brusquely quickly
+shortly.r	just soon little not_long almost_immediately
+shortly.r	presently soon abruptly before_long
+shortly.r	soon just a_little not_long almost_immediately
+shortly.r	abruptly curtly sharply brusquely briefly quickly
+shortly.r	soon presently quickly
+shortly.r	abruptly curtly presently sharply
+shortly.r	soon just not_long almost_immediately
+skip.v	miss avoid dodge neglect
+skip.v	skim bounce hop jump
+skip.v	skim bounce hop jump bump
+skip.v	jump spring hop bound prance
+skip.v	miss omit
+skip.v	miss_out disregard jump_over miss avoid jump ignore leave
+skip.v	jump pass_over miss_out
+skip.v	omit eschew miss avoid reject neglect
+skip.v	miss jump fail_once omit
+skip.v	jump pass skitter shift skim
+solid.a	hard solid firm concrete set
+solid.a	dependable strong firm cemented genuine stable reliable
+solid.a	hard rigid set
+solid.a	firm dependable fixed strong stable reliable
+solid.a	firm strong secure stable reliable
+solid.a	strong sturdy secure firm substantial stable
+solid.a	firm hard strong dry set sound
+solid.a	dependable strong firm respectable accurate sound reliable
+solid.a	substantive dependable strong firm valid reliable good sound
+solid.a	firm dependable strong convincing accurate reliable
+strong.a	healthy resilient robust sturdy vigorous hardy
+strong.a	sturdy solid robust powerful durable secure
+strong.a	powerful high forceful heavy
+strong.a	solid firm powerful convincing persuasive compelling
+strong.a	solid good well_stocked powerful effective sound
+strong.a	powerful firm clear convincing
+strong.a	powerful intense pronounced potent distinct keen
+strong.a	powerful good firm masterful effective
+strong.a	intense robust concentrated dark highly_flavoured bitter full_bodied
+strong.a	dependable resilient resolute tough forceful capable robust sturdy
+suffer.v	have acquire undergo endure sustain experience
+suffer.v	endure undergo experience know
+suffer.v	experience undergo endure have
+suffer.v	endure tolerate bear
+suffer.v	endure tolerate undergo experience put_up_with
+suffer.v	have undergo endure sustain experience
+suffer.v	endure bear tolerate accept put_up_with
+suffer.v	endure undergo be_subjected_to experience
+suffer.v	undergo endure encounter experience
+suffer.v	endure undergo have feel experience
+tap.v	drum rap move knock
+tap.v	exploit draw use appeal_to syphon utilise take_advantage_of
+tap.v	knock rap drum pat beat hit
+tap.v	exploit utilise use syphon take_advantage_of
+tap.v	utilise draw_on syphon exploit milk
+tap.v	mark establish appoint recommend approach commission choose
+tap.v	mark contact approach ask commission select choose
+tap.v	exploit utilise use syphon draw_upon extract
+tap.v	hit drum strike knock touch rap
+tap.v	use exploit utilise syphon draw_upon
+therefore.r	consequently accordingly thus as_a_result hence
+therefore.r	consequently thus so
+therefore.r	consequently thus accordingly
+therefore.r	consequently so thus
+therefore.r	thus consequently accordingly
+therefore.r	consequently thus accordingly
+therefore.r	consequently thus accordingly
+therefore.r	accordingly consequently thus hence
+therefore.r	consequently accordingly hence
+therefore.r	consequently accordingly so thus hence
+touch.v	feel finger stroke
+touch.v	skim_over refer_to address_slightly brush deal_with skim study
+touch.v	affect move stir influence
+touch.v	consider get_involved_with undertake handle accept do deal_with take_on
+touch.v	mention consider talk_about alight refer_to speak_about
+touch.v	affect infect influence
+touch.v	get_to consider reach come_into_contact_with refer_to study
+touch.v	in_contact_with on come_together_with lean_against contact
+touch.v	contact come_together meet come_in_contact_with make_contact_with
+touch.v	tinge affected_by influenced_by
+worthy.a	deserved laudable commendable deserving reputable trusted excellent
+worthy.a	deserving deserved
+worthy.a	deserving deserved laudable admirable respectable creditable
+worthy.a	deserving deserved laudable righteous charitable
+worthy.a	deserving deserved admirable satisfactory acceptable fitting
+worthy.a	deserving charitable fitting
+worthy.a	worthwhile deserved commendable good admirable excellent
+worthy.a	worthwhile honourable commendable deserving beneficial creditable
+worthy.a	deserving worthwhile befitting suitable
+worthy.a	deserving worthwhile commendable suitable
+account.n	explanation description synopsis chronicle
+account.n	statement banking_arrangement subscription facility
+account.n	explanation consideration description
+account.n	fund balance finance asset facility
+account.n	narrative report bank_balance
+account.n	logon subscriber ledger access bank_balance facility
+account.n	banking_facility fund finance asset bank_balance
+account.n	banking_facility finance bank_balance
+account.n	ledger statement facility
+account.n	balance ledger facility
+acquire.v	gain gather amass collect
+acquire.v	procure gain purchase buy obtain
+acquire.v	buy procure gain get purchase obtain
+acquire.v	gain amass receive obtain
+acquire.v	gain procure get achieve obtain
+acquire.v	gain amass secure get learn obtain
+acquire.v	procure obtain purchase gain bring_in buy
+acquire.v	get procure gain purchase find buy obtain
+acquire.v	purchase obtain buy procure
+acquire.v	get gain obtain
+acute.a	severe critical sharp grave serious
+acute.a	severe sudden urgent serious
+acute.a	severe serious critical
+acute.a	sharp sensitive keen serious
+acute.a	emergency critical severe urgent
+acute.a	pn critical
+acute.a	serious heightened intense severe
+acute.a	severe serious
+acute.a	critical pn
+acute.a	serious severe
+below.r	underneath beneath lower_down following
+below.r	underneath beneath lower_down
+below.r	underneath beneath
+below.r	beneath later lower_down included attached following
+below.r	underneath beneath lower_down following
+below.r	underneath beneath lower_down following
+below.r	underneath beneath lower_down following
+below.r	beneath underneath attached following
+below.r	underneath beneath
+below.r	underneath beneath following
+bring.v	draw attract gather call
+bring.v	move convey gather draw
+bring.v	file attract initiate institute instigate take start
+bring.v	institute file put present take
+bring.v	take make make_more_similar make_more_like restore_to
+bring.v	take draw deliver guide return
+bring.v	get create convey produce generate introduce take
+bring.v	shoot depress topple ruin bore force
+bring.v	take transport convey carry move
+bring.v	introduce attract realise contribute take incorporate
+burst.v	erupt explode rush barge break
+burst.v	explode pop rupture end deflate
+burst.v	erupt bounce leap explode_on_to explode arrive_on erupt_on_to
+burst.v	erupt explode_on explode surprise descend break erupt_on
+burst.v	cover burgeon bristle explode overflow laden
+burst.v	break erupt run rush barge
+burst.v	break overflow fracture
+burst.v	break erupt rupture enthusiastic overflow full_to_burst split
+burst.v	erupt bound run push rush barge break
+burst.v	break erupt_with_laughter erupt explode
+call.v	name address designate
+call.v	refer_to dub know_as label describe designate
+call.v	name
+call.v	telephone dial phone ring
+call.v	telephone summon request ring phone
+call.v	phone telephone ring contact
+call.v	name describe_as know_as term
+call.v	phone telephone ring
+call.v	name refer_to_as dub label designate entitle term
+call.v	telephone ring phone contact
+caravan.n	trailer roadshow trailer cavalcade band vehicle company
+caravan.n	camper mobile_home house_trailer camp_trailer
+caravan.n	trailer camper camping mobile_home
+caravan.n	trailer camper house_trailer mobile_home
+caravan.n	convoy group cavalcade
+caravan.n	train convoy traveller cavalcade party company
+caravan.n	convoy trailer troop company mobile_home
+caravan.n	convoy crocodile camper cavalcade company
+caravan.n	trailer camper mobile_home
+caravan.n	convoy trailer convey cavalcade company mobile_home
+carry.v	convey bear send bring drag take
+carry.v	convey bear transport hold transmit contain
+carry.v	convey take bear transport bring
+carry.v	hold bear convey use be_fitted_with contain
+carry.v	do accomplish execute undertake complete
+carry.v	execute undertake deploy perform complete
+carry.v	hold convey bring pack have_on_them take
+carry.v	bring take transport
+carry.v	fulfil execute conclude undertake complete
+carry.v	hold transport lug clutch
+clear.a	obvious apparent evident transparent certain
+clear.a	definite obvious transparent distinct true unambiguous
+clear.a	distinct obvious unambiguous definite
+clear.a	obvious plain evident distinct certain
+clear.a	obvious plain unmistakable evident apparent
+clear.a	clean fresh pure
+clear.a	obvious plain unmistakable lucid
+clear.a	obvious plain patent
+clear.a	obvious understandable distinctly evident unambiguous
+clear.a	distinct sharp unobscured unblurred
+close.r	near adjacent
+close.r	near proximate about
+close.r	near neighbouring local
+close.r	near
+close.r	near
+close.r	near proximate adjacent near contiguous
+close.r	near almost
+close.r	near
+close.r	near next
+close.r	near
+closely.r	carefully in_detail intently attentively scrupulously
+closely.r	intimately nearly directly strongly
+closely.r	jointly collectively in_unison together in_concert intimately
+closely.r	jointly collectively in_unison together in_concert intimately
+closely.r	carefully in_detail intently attentively
+closely.r	intimately neatly narrowly strongly
+closely.r	carefully in_detail intently attentively
+closely.r	jointly in_tandem carefully in_unison alongside together in_concert
+closely.r	jointly in_tandem carefully in_unison together in_concert intimately
+closely.r	nearly approximately
+decline.v	reject refuse forgo
+decline.v	fall decrease weaken drop lessen reject
+decline.v	fall decrease drop
+decline.v	fall decrease deteriorate drop
+decline.v	fall decrease deteriorate drop
+decline.v	fall decrease drop
+decline.v	decrease fall drop get_worse
+decline.v	fall deteriorate decrease
+decline.v	fall decrease drop
+decline.v	decrease fall reduce
+drop.v	left_round unload set_down deliver deliver leave
+drop.v	write email send_a_message send text write_a_letter send_a_letter
+drop.v	relinquish let_fall throw dump release let_go_of
+drop.v	leave_out abandon omit ditch
+drop.v	fall decline
+drop.v	fall decline
+drop.v	leave_out abandon deselect
+drop.v	pause stop lower put_down weigh
+drop.v	abandon relinquish discontinue terminate leave
+drop.v	fall
+easy.a	simple accessible
+easy.a	simple uncomplicated carefree undemanding
+easy.a	simple trouble_free more_straightforward convenient more_accessible less_difficult
+easy.a	simple trouble_free uncomplicated undemanding straightforward
+easy.a	simple undemanding possible straightforward
+easy.a	simple less more_straightforward not_difficult
+easy.a	simple possible straightforward
+easy.a	simple not_difficult straightforward
+easy.a	not_difficult possible common
+endure.v	suffer tolerate bear put_up_with
+endure.v	last continue
+endure.v	suffer undergo have experience go_through
+endure.v	suffer undergo tolerate go_through
+endure.v	suffer tolerate undergo bear submit_to put_up_with
+endure.v	undergo suffer have experience
+endure.v	last continue persist
+endure.v	undergo suffer have put_up_with go_through
+endure.v	suffer undergo experience put_up_with
+endure.v	suffer put_up_with tolerate bear
+extended.a	wide additional expanded broad
+extended.a	protracted long lengthened prolonged
+extended.a	lengthened enlarged long elongated increased
+extended.a	wide additional expanded broad
+extended.a	long prolonged lengthy protracted lengthened
+extended.a	lengthy drawn_out protracted long prolonged
+extended.a	extensive expansive lengthy comprehensive prolonged
+extended.a	lengthened additional long expanded increased augmented
+extended.a	lengthy prolonged protracted long
+extended.a	protracted prolonged lengthy long
+external.a	outside
+external.a	outside
+external.a	outside outward outer
+external.a	outside nonlocal
+external.a	outside
+external.a	outside link
+external.a	outer exterior outside
+external.a	outside outer exterior
+external.a	outside exterior
+external.a	outside foreign
+field.n	area holder section data_item box
+field.n	area speciality activity discipline
+field.n	land resource ground licence area acreage
+field.n	area discipline domain speciality
+field.n	area sphere region field_of_vision
+field.n	sphere area holder data_item box
+field.n	pitch
+field.n	on_the_streets community area area_of_operation battleground
+field.n	area domain sphere province discipline
+field.n	environment subject investigative geographical
+flat.a	level smooth horizontal
+flat.a	straight
+flat.a	level horizontal
+flat.a	lifeless flush horizontal deflated
+flat.a	total plain absolute outright downright categoric
+flat.a	plane even thin smooth even_surface
+flat.a	level horizontal
+flat.a	uniform even invariable_rate fixed fixed_rate
+flat.a	level even gently shallow
+flat.a	level thin smooth
+forward.r	ahead anticipate excited_about look_ahead_to
+forward.r	onward on ahead forth along
+forward.r	ahead frontward to_the_front
+forward.r	ahead wait_for anticipate expect look_ahead_to
+forward.r	onward ahead on advance
+forward.r	onward ahead advance move_on along move_ahead
+forward.r	ahead out
+forward.r	ahead advance over move_earlier earlier
+forward.r	advance onward forth take_ahead
+forward.r	onward future_focused look_to_the_future front anticipative
+fundamental.a	elemental radical basic intrinsic essential
+fundamental.a	basic essential primary significant elemental
+fundamental.a	basic essential elementary elemental foundational
+fundamental.a	basic significant elemental major central important
+fundamental.a	basic essential elementary elemental foundational
+fundamental.a	basic essential significant elemental vital important
+fundamental.a	basic essential elemental foundational vital
+fundamental.a	basic underlying essential significant elemental foundational important
+fundamental.a	basic essential necessary elemental foundational
+fundamental.a	basic radical elementary elemental foundational
+get.v	persuade convince
+get.v	be become achieve
+get.v	acquire gain receive give
+get.v	travel reach travel_to go arrive_at
+get.v	acquire obtain have buy
+get.v	acquire buy obtain
+get.v	be wind_up
+get.v	obtain achieve acquire
+get.v	fetch obtain procure reach bring buy
+get.v	become be
+hold.v	maintain have believe adhere
+hold.v	stand support stand_up lift
+hold.v	support place position put
+hold.v	grasp lift take clasp
+hold.v	occupy have retain maintain
+hold.v	contain store retain cache
+hold.v	convene organise conduct call host
+hold.v	occupy possess retain have
+hold.v	keep possess retain store own
+hold.v	carry grip handle clutch grasp clasp
+informal.a	casual unofficial relaxed
+informal.a	casual unofficial relaxed
+informal.a	unofficial everyday relaxed ordinary
+informal.a	approximate not_rigorous relaxed casual imprecise lacking_rigour
+informal.a	casual relaxed unofficial
+informal.a	casual relaxed friendly
+informal.a	casual friendly spontaneous relaxed not_prescribed
+informal.a	unofficial everyday not_rigorous commonly_used casual
+informal.a	casual untrained spontaneous relaxed
+informal.a	unofficial easygoing casual
+inner.a	internal spiritual inmost inward
+inner.a	inside enclosed interior innermore
+inner.a	internal interior mental inward spiritual
+inner.a	internal private inward
+inner.a	internal interior mental inside inward spiritual
+inner.a	clique close interior original trusted_group central
+inner.a	inside internal interior under
+inner.a	internal private mental inward spiritual
+inner.a	internal central private inside
+inner.a	internal private focal central
+investigator.n	researcher experimenter inquirer examiner
+investigator.n	detective inquirer officer official inspector
+investigator.n	inquirer detective officer official inspector
+investigator.n	researcher inquirer experimenter
+investigator.n	inquirer detective researcher inspector
+investigator.n	researcher inquirer experimenter
+investigator.n	researcher inquirer detective officer
+investigator.n	researcher detective examiner
+investigator.n	researcher experimenter inquirer examiner
+investigator.n	researcher inquirer
+letter.n	dispatch missive correspondence memo message communication
+letter.n	epistle missive correspondence correspondence message communication
+letter.n	character alphabetic_character alphabet glyph
+letter.n	alphabetic_character correspondence missive document communication
+letter.n	character alphabetic_character glyph
+letter.n	character alphabetic_character glyph
+letter.n	correspondence epistle missive document mail communication
+letter.n	epistle missive mail note message communication
+letter.n	missive dispatch document correspondence communication
+letter.n	missive communication epistle mail
+loud.a	noisy big vociferous conspicuous strident
+loud.a	booming thundering strong resonant
+loud.a	noisy deafening
+loud.a	noisy deafening shrill blaring
+loud.a	noisy booming resonant heavy
+loud.a	noisy blaring
+loud.a	disturbing imposing deafening clear blaring obtrusive rowdy
+loud.a	big strong booming clear resonant blaring
+loud.a	noisy forceful amplified strong powerful resonant
+loud.a	noisy raucous rowdy
+mad.a	wild hurried crazy frantic rapid
+mad.a	insane crazy
+mad.a	angry wildly_excited annoyed furious
+mad.a	crazy wild
+mad.a	BSE crazy pn
+mad.a	crazy very_rapidly very_fast very_quickly fast
+mad.a	insane rabid crazy
+mad.a	BSE crazy pn
+mad.a	crazy frenzied frenetic uncontrolled wild
+mad.a	BSE crazy pn
+make.v	create construct succeed complete
+make.v	help enable_to cause_to compel cause cause
+make.v	take reach form arrive_at
+make.v	produce initiate do affect get_to
+make.v	cause_your_outer_work_to_be_more give_rise_to turn cause_to_become cause cause_to_be
+make.v	generate create commit produce perform
+make.v	create construct produce do generate write
+make.v	cause_a_great_burden_to_be turn change induce_to_be cause_to_be
+make.v	cause_to have induce_to compel_me_to
+make.v	commit produce have
+mission.n	negotiation office legation assignment charity delegation
+mission.n	negotiation assignment operation task
+mission.n	task aim assignment purpose objective
+mission.n	outreach evangelical ministering operation
+mission.n	work calling quest arrival
+mission.n	religious_preaching outreach evangelical operation
+mission.n	church oratory preaching outreach
+mission.n	duty vocation calling project quest purpose
+mission.n	assignment operation project task
+mission.n	task assignment project operation aim
+near.r	almost about close_to approximately
+near.r	close close_by
+near.r	almost about close_to approximately
+near.r	almost just_about close_to practically virtually
+near.r	almost approaching all_but
+near.r	almost approaching just_about about
+near.r	close neighbouring close_at_hand adjoining
+near.r	close alongside
+near.r	closely not_remotely not_closely nearly close_to
+near.r	almost just_about all_but
+open.a	available ready_for_business accepting_business
+open.a	unshut unfastened switched_on ajar unclosed accessible
+open.a	receptive aware exposed susceptible
+open.a	unrestricted unpoliced free unclosed
+open.a	alert unlidded peeled wide gaping
+open.a	sandal unclosed peep
+open.a	unrestricted free
+open.a	working unlocked accepting_business accessible available
+open.a	exposed green unobstructed clear empty accessible
+open.a	accessible approachable available
+pot.n	cannabis marijuana dope weed
+pot.n	container tub vessel
+pot.n	bowl tray vessel container pan casserole
+pot.n	teapot container ceramic
+pot.n	container canister pourer vessel
+pot.n	container stake vessel prize winning
+pot.n	container vessel pan
+pot.n	tub container
+pot.n	pan vessel saucepan container
+pot.n	cannabis marijuana dope weed
+profound.a	deep thought_provoking sagacious insightful wise discerning
+profound.a	deep significant important far_reaching extensive
+profound.a	deep great far_reaching huge
+profound.a	deep intense significant acute
+profound.a	intense deep thought_provoking thoughtful intellectual complex thorough
+profound.a	deep significant keen extensive far_reaching deep_seated
+profound.a	deep serious thought_provoking intellectual penetrating
+profound.a	deep significant pronounced far_reaching deep_seated
+profound.a	deep in_depth thorough deep_seated
+profound.a	deep significant deep_seated serious
+prominent.a	well_known important leading
+prominent.a	well_known leading high_profile eminent important
+prominent.a	well_known leading high_profile renowned
+prominent.a	leading important significant conspicuous foremost
+prominent.a	leading well_known high_profile widely_known renowned
+prominent.a	leading well_known widely_known renowned famous
+prominent.a	important notable conspicuous major foremost
+prominent.a	conspicuous visible obvious
+prominent.a	conspicuous obvious noticeable notable salient
+prominent.a	conspicuous obvious noticeable pronounced prevalent
+pull.v	remove tug pluck rip yank wrench
+pull.v	stretch tug manipulate yank
+pull.v	stop stop_the_car draw stop_at_the_side_of_the_road park
+pull.v	attract draw lure
+pull.v	tug move haul heave wrench yank
+pull.v	drag haul tow shift
+pull.v	stop draw stop_the_car park
+pull.v	try_everything go_to_any_length stop_at_nothing do_everything_it_takes yank
+pull.v	squeeze push draw yank
+pull.v	get_hold_of request look_at stop withdraw extract read
+range.n	series spread variety collection selection choice
+range.n	gallery practice_area shooting_centre shooting_area
+range.n	distance extent coverage limit
+range.n	selection variety assortment series
+range.n	variety array assortment selection span breadth
+range.n	roaming run complete_gamut access total_freedom free_run
+range.n	span scope spread selection
+range.n	area
+range.n	variety array assortment
+range.n	selection variety spread series scope
+rather.r	more instead_of more_accurately
+rather.r	instead_of more in_preference_to
+rather.r	instead_of more sooner
+rather.r	instead_of in_preference_to sooner
+rather.r	instead_of more
+rather.r	instead preferably sooner
+rather.r	quite fairly very moderately more
+rather.r	instead_of in_preference_to more sooner
+rather.r	very somewhat slightly significantly quite
+rather.r	instead_of in_preference_to sooner
+render.v	make portray cause_to_be leave
+render.v	provide deliver create bestow give
+render.v	provide deliver give
+render.v	make convert leave
+render.v	display show use represent encode
+render.v	display submit represent lay_out portray
+render.v	make portray leave
+render.v	make deliver leave
+render.v	make cause_to_be
+render.v	make leave
+rhythm.n	beat regular_beat tempo
+rhythm.n	pattern cycle clock pulse
+rhythm.n	beat regular_beat pattern tempo pulse cycle
+rhythm.n	beat pattern cadence tempo regular_pattern
+rhythm.n	pattern beat pulse cycle
+rhythm.n	beat cadence
+rhythm.n	beat tempo time_signature
+rhythm.n	beat pattern
+rhythm.n	tempo harmony beat cycle
+rhythm.n	beat form
+scene.n	backstage stage setting programme
+scene.n	site location setting sight
+scene.n	setting image
+scene.n	setting sequence incident place event
+scene.n	sequence part setting act
+scene.n	sphere environment community business field
+scene.n	setting sight sequence area picture
+scene.n	sequence segment setting act picture
+scene.n	setting picture location event
+scene.n	arena landscape level scale
+serious.a	significant considerable impressive substantial real
+serious.a	concerned businesslike resolute sincere take_action heavy
+serious.a	severe critical significant major acute
+serious.a	severe important significant grave acute
+serious.a	important grave severe urgent
+serious.a	grave severe significant important
+serious.a	severe significant major acute
+serious.a	major severe considerable grave significant heavy
+serious.a	significant proper impressive major
+serious.a	major considerable grave significant important real
+shade.n	shadow cover shelter
+shade.n	hue gradation nuance degree tone tint
+shade.n	shadow under_the_cover shelter
+shade.n	trace nuance colour based_on hint suggestion echo
+shade.n	cover shadow screen canopy
+shade.n	shadow cover shelter shadow
+shade.n	trace hint suggestion echo
+shade.n	hue gradation tint tone canopy
+shade.n	tint hue degree tinge tone depth
+shade.n	sunglasses
+so.r	that very as this
+so.r	as very
+so.r	one_might_say in_a_way as_it_were as_we
+so.r	that
+so.r	therefore consequently thus
+so.r	therefore consequently thus
+so.r	therefore consequently thus hence
+so.r	therefore consequently thus
+so.r	as therefore likewise
+so.r	thereabouts approximately or_more about
+soft.a	easy weak gentle imprecise
+soft.a	quiet feeble faint
+soft.a	gentle tender flexible compassionate
+soft.a	malleable spongy gentle yielding tender
+soft.a	smooth spongy yielding cushioned comfortable not_rough
+soft.a	gentle quiet restful
+soft.a	nonalcoholic_drinks nonalcoholic
+soft.a	gentle quiet faint
+soft.a	easy undemanding lenient
+soft.a	yielding spongy comfy cushioned squashy
+soil.n	earth layer_of_earth dirt terrain compost
+soil.n	dirt geological pedological pn
+soil.n	earth compost dirt
+soil.n	earth the_ground dirt compost
+soil.n	earth layer dirt compost
+soil.n	earth ground land dirt
+soil.n	earth ground dirt
+soil.n	dirt tarnish earth compost
+soil.n	ground earth stain
+soil.n	earth land dirt pedological
+steady.a	continuous constant constant persistent
+steady.a	firm stable solid unwavering unshaking
+steady.a	constant unvarying fixed stable
+steady.a	firm stable solid unwavering unshaking
+steady.a	constant unchanging unvarying unfluctuating
+steady.a	constant continuous unbroken
+steady.a	continuous regular gradual unremitting unbroken constant
+steady.a	continuous gradual uninterrupted constant
+steady.a	constant continuous stable
+steady.a	constant regular sure continuous stable
+stiff.a	rigid inelastic firm inflexible
+stiff.a	rigid unyielding firm
+stiff.a	strong firm good solid hard
+stiff.a	strong tough intense
+stiff.a	aching frozen rheumatic cricked painful sore
+stiff.a	aching sore
+stiff.a	stern formal firm unrelaxed constrained unnatural unbending
+stiff.a	harsh heavy severe strong rigid
+stiff.a	firm rigid unyielding hard
+stiff.a	strong heavy powerful
+strange.a	odd unusual weird bizarre alien
+strange.a	foreign bizarre different odd alien
+strange.a	odd peculiar unusual bizarre
+strange.a	odd bizarre abnormal peculiar
+strange.a	odd peculiar weird bizarre
+strange.a	peculiar unfamiliar odd unknown alien
+strange.a	odd weird unusual
+strange.a	odd peculiar weird bizarre
+strange.a	odd peculiar bizarre
+strange.a	unexpected unusual surprising peculiar unlikely unfamiliar
+strike.v	hit bang bash knock
+strike.v	impress surprise move affect take
+strike.v	hit
+strike.v	hitting fail pn
+strike.v	hit achieve make get find arrive_at
+strike.v	carve hammer make cast thrust hit
+strike.v	hit bump
+strike.v	occur_to occur appear_to seem_to
+strike.v	start begin
+strike.v	hit collide_with
+suspect.v	believe consider guess assume think surmise expect
+suspect.v	think imagine guess postulate believe surmise
+suspect.v	consider question presume suspicious expect think_probable
+suspect.v	believe think feel reckon think_probable
+suspect.v	believe imagine think reckon think_probable
+suspect.v	consider_potentially_guilty think_guilty mistrust believe_guilty
+suspect.v	believe think surmise reckon think_probable
+suspect.v	believe surmise reckon think_probable
+suspect.v	believe reckon imagine expect think_probable
+suspect.v	mistrust think_of believe wonder_about
+tender.a	delicate soft
+tender.a	sore delicate sensitive painful
+tender.a	gentle delicate sympathetic kind
+tender.a	soft delicate
+tender.a	delicate soft
+tender.a	soft
+tender.a	soft delicate
+tender.a	delicate gentle sensitive
+tender.a	loving fond sensitive great affectionate soft
+tender.a	young early immature soft inexperienced
+test.n	examination assessment exam evaluation
+test.n	examination exam assessment
+test.n	assessment trial examination analysis evaluation
+test.n	trial analysis scan check assessment
+test.n	analysis examination scan check assessment
+test.n	examination exam assessment
+test.n	trial assessment analysis evaluation
+test.n	examination exam assessment
+test.n	examination exam assessment
+test.n	examination exam assessment
+throw.v	fling chuck fire expose_to hurl
+throw.v	fling put toss chuck pitch
+throw.v	fling hurl
+throw.v	ask_of fling chuck direct_at demand ask hurl
+throw.v	put project bring place focus
+throw.v	fling chuck toss
+throw.v	hurl shoot punch deliver propel
+throw.v	fling chuck toss discard hurl
+throw.v	fling hurl toss cast chuck
+throw.v	hurl fling toss
+tremendous.a	wonderful great marvellous extraordinary terrific
+tremendous.a	enormous great huge terrible
+tremendous.a	enormous great huge terrific
+tremendous.a	great wonderful enormous terrific huge vast
+tremendous.a	huge enormous great terrific
+tremendous.a	enormous extraordinary terrific vast huge
+tremendous.a	enormous huge
+tremendous.a	enormous huge extraordinary vast
+tremendous.a	great huge wonderful enormous terrific
+tremendous.a	enormous huge great extraordinary
+true.a	factual correct genuine verified unquestionable accurate
+true.a	real genuine
+true.a	accurate correct factual genuine real
+true.a	correct right factual accurate real truth
+true.a	correct factual fact accurate
+true.a	correct right factual accurate
+true.a	correct accurate genuine
+true.a	real actual correct
+true.a	correct accurate factual genuine verified
+true.a	real actual
+truly.r	genuinely strictly unequivocally actually
+truly.r	genuinely perfectly absolutely unequivocally actually unquestionably
+truly.r	genuinely perfectly absolutely definitely actually
+truly.r	genuinely really unquestionably
+truly.r	genuinely definitely
+truly.r	really undoubtedly genuinely
+truly.r	really undoubtedly absolutely genuinely
+truly.r	genuinely really
+truly.r	really genuinely fully
+truly.r	honestly truthfully genuinely really in_truth
+vital.a	essential crucial critical indispensable
+vital.a	essential critical requisite fundamental
+vital.a	essential crucial requisite
+vital.a	indispensable essential integral necessary crucial
+vital.a	necessary requisite essential crucial important
+vital.a	essential crucial indispensable necessary
+vital.a	essential important crucial
+vital.a	essential important necessary crucial
+vital.a	essential critical indispensable necessary crucial important
+vital.a	essential requisite crucial
+worldwide.a	global international
+worldwide.a	global international
+worldwide.a	global international
+worldwide.a	global international
+worldwide.a	global universal international
+worldwide.a	global international
+worldwide.a	global international total
+worldwide.a	global international
+worldwide.a	global international
+worldwide.a	global international
+yet.r	still not_arrived
+yet.r	nevertheless however despite_this but
+yet.r	still are_still_to_happen
+yet.r	before thus_far until_now up_to_now still
+yet.r	so_far hitherto already thus_far still
+yet.r	but nevertheless although still however
+yet.r	so_far hitherto to_date until_now thus_far still
+yet.r	however nevertheless in_spite_of_that despite_this but
+yet.r	before lately so_far hitherto already
+yet.r	so_far thus_far still
+blow.n	punch thump strike clout hit
+blow.n	hit strike knock setback criticism punch reverse
+blow.n	setback strike knock shock reverse
+blow.n	setback disaster knock reverse
+blow.n	hair wind air hot_air
+blow.n	hit attack setback shock knockback reverse
+blow.n	setback knock shock rebuff knockback reverse
+blow.n	strike knock movement
+blow.n	strike attack thrust hit
+blow.n	hit punch strike
+board.n	committee governing_body administration panel management directorate executive
+board.n	committee governing_body panel
+board.n	blackboard screen wipeboard whiteboard
+board.n	table game playing_surface
+board.n	forum screen display
+board.n	committee organisation governing_body
+board.n	committee governing_body panel
+board.n	forum message_area site
+board.n	card game motherboard
+board.n	committee group governing_body
+cap.n	capital limited_tax
+cap.n	tip nozzle pn
+cap.n	lid top
+cap.n	limit restriction ceiling
+cap.n	limit ceiling restriction
+cap.n	hat nozzle
+cap.n	limit restriction ceiling
+cap.n	top pileus
+cap.n	headdress
+cap.n	hat
+change.v	alter amend switch modify
+change.v	move alter shift vary
+change.v	alter evolve transform
+change.v	alter modify transform
+change.v	alter modify
+change.v	alter vary adjust
+change.v	alter move transform modify
+change.v	alter transform become_different
+change.v	modify alter adjust
+change.v	alter modify amend update
+charge.n	command control power authority
+charge.n	accusation allegation offence indictment
+charge.n	allegation accusation criticism
+charge.n	accusation allegation indictment issue
+charge.n	cost expense payment fee
+charge.n	allegation accusation offence indictment prosecution
+charge.n	cost expense tariff payment
+charge.n	allegation indictment prosecution
+charge.n	cost tariff fee
+charge.n	offence allegation accusation indictment
+execution.n	capital_punishment killing death_sentence death
+execution.n	enforcement implementation carrying_out administration
+execution.n	fulfilment production implementation transaction completion
+execution.n	enforcement implementation application administration performance
+execution.n	completion operation carrying_out running actualisation performance
+execution.n	implementation fulfilment discharge performance
+execution.n	putting_to_death capital_punishment killing death_sentence
+execution.n	capital_punishment death killing the_chair the_death_penalty
+execution.n	death killing putting_to_death capital_punishment death_sentence
+execution.n	performance implementation method
+fall.v	drop come
+fall.v	fail be_unsuccessful drop come
+fall.v	become be_taken take
+fall.v	drop slip
+fall.v	do_not_meet do_not_come_up_to disappoint fail_to_meet drop come undershoot
+fall.v	drop descend land come_down
+fall.v	do_not_meet do_not_come_up_to disappoint fail_to_meet drop come undershoot
+fall.v	drop
+fall.v	tumble drop plunge slip
+fall.v	go_to_sleep drop_off doze_off drop
+figure.n	entity organisation character representative individual
+figure.n	number statistic numeral
+figure.n	number amount statistic
+figure.n	diagram picture illustration people image
+figure.n	number statistic account value
+figure.n	leader person character person_of_authority representative individual
+figure.n	number statistic amount calculation
+figure.n	character person personage image
+figure.n	number statistic data total
+figure.n	diagram illustration picture
+fire.v	shoot
+fire.v	shoot launch discharge
+fire.v	sack dismiss
+fire.v	sack lay_off dismiss
+fire.v	shoot shoot_at
+fire.v	sack dismiss
+fire.v	shoot discharge
+fire.v	sack dismiss
+fire.v	shoot
+fire.v	shoot discharge
+function.n	purpose role
+function.n	mapping calculation purpose correspondence equation transformation
+function.n	feature sequence subroutine task operation activity
+function.n	purpose role job
+function.n	mapping correspondence operation related_to result
+function.n	purpose role working task job
+function.n	purpose role mapping working
+function.n	purpose operation activity role performance
+function.n	purpose job task role
+function.n	mapping relation equation activity phenomenon
+jam.n	conserve jelly preserve
+jam.n	impromptu_music improv improvised_music informal_music
+jam.n	music_session informal_music_session gig impromptu_music_session
+jam.n	jelly conserve
+jam.n	conserve preserve
+jam.n	blockage seizure malfunction
+jam.n	congestion traffic_block blockage heavy_traffic queue traffic_congestion
+jam.n	impromptu_music session improvised_music riff music_sessions
+jam.n	congestion traffic_block blockage heavy_traffic queue traffic_congestion
+jam.n	blockage seizure
+lead.n	prospect
+lead.n	head leader star number_one
+lead.n	leash guide_rope halter
+lead.n	example enticement foray
+lead.n	example conduct direction guidance
+lead.n	cable flex halter wire
+lead.n	tip prospect story hint opportunity clue
+lead.n	ahead influential to_the_fore forefront in_front most_prominent
+lead.n	main_role precedence front_rank initiative prominent_position command_of
+paper.n	document report
+paper.n	newspaper publication
+paper.n	document essay treatise article study
+paper.n	document newspaper report treatise
+paper.n	roll bathroom_tissue toilet_tissue
+paper.n	stationery papyrus
+paper.n	newspaper journal
+paper.n	document
+paper.n	document presentation treatise article manuscript
+paper.n	article thesis treatise document manuscript
+pass.v	approve ratify authorise adopt
+pass.v	get_through succeed_in satisfy succeed successfully_complete succeed_at
+pass.v	go_by navigate skirt go_past
+pass.v	go_by go_past approach see
+pass.v	send hand_over transfer hand deliver
+pass.v	send give transfer hand
+pass.v	go ebb_away flow expire leak disappear
+pass.v	go_away transpire go_by finish occur elapse go
+pass.v	meet_approval get_through be_accepted_by measure_up_to_a_certain_standard succeed get_approval_from
+pass.v	go proceed experience move_through traverse go
+poor.a	bad weak incompetent mediocre inferior
+poor.a	unfortunate hapless sorry miserable
+poor.a	unfortunate unlucky
+poor.a	bad unsatisfactory inadequate deficient inferior
+poor.a	low inferior bad unsatisfactory substandard
+poor.a	unfortunate unlucky
+poor.a	inferior weak bad infertile deficient substandard
+poor.a	impoverished poverty_stricken destitute needy deprived developing underprivileged
+poor.a	less_well_off destitute needy indigent low_income deprived underprivileged
+poor.a	unfortunate pitiable wretched unhappy
+rest.n	remainder remains
+rest.n	remainder balance
+rest.n	remainder
+rest.n	respite repose quiet leisure inactivity sleep
+rest.n	support stand prop base stick
+rest.n	break_area service_station convenience service layby comfort break
+rest.n	remainder balance
+rest.n	remainder
+rest.n	remainder
+rest.n	remainder balance
+right.r	correct straight appropriate
+right.r	straight immediately straightaway
+right.r	straight exactly
+right.r	straight
+right.r	correctly well properly accurately
+right.r	straight all_the_way totally
+right.r	straight immediately directly
+right.r	straight all_the_way immediately directly
+right.r	straight directly just immediately
+ring.n	hoop circle band rim circlet
+ring.n	band fob chain hoop holder circle
+ring.n	circle shadow band
+ring.n	group chain tone syndicate association
+ring.n	call telephone_call bell
+ring.n	sound feel connotation chime
+ring.n	circle band coil
+ring.n	circle group network
+ring.n	hoop circle loop
+ring.n	circle level orbit
+scrap.n	waste remainder
+scrap.n	waste piece odds_and_ends rubbish shred
+scrap.n	piece fragment
+scrap.n	bit morsel leftover piece fragment
+scrap.n	piece fragment bit
+scrap.n	piece
+scrap.n	recycling waste waste_metal trade_in
+scrap.n	waste discarded_item
+scrap.n	waste morsel leftover crumb bit
+scrap.n	clipping album collage
+secret.a	undisclosed hidden unpublished clandestine private
+secret.a	clandestine hidden undisclosed undercover concealed unknown
+secret.a	undisclosed hidden unrevealed unpublished concealed
+secret.a	hidden undisclosed undercover concealed clandestine
+secret.a	private classified clandestine coded confidential
+secret.a	undisclosed private hidden
+secret.a	innermost unspoken inner hidden confidential
+secret.a	private closed undisclosed concealed unseen hidden
+secret.a	undisclosed closed private hidden
+secret.a	spying intelligence intelligence_agency
+shot.n	projectile drive firing stroke play
+shot.n	ammunition pellet
+shot.n	bullet projectile round blast
+shot.n	attempt strike stroke play aim
+shot.n	bullet round
+shot.n	firing discharge noise blast
+shot.n	attempt move stroke manoeuvre hit play
+shot.n	photo portrait photograph picture
+shot.n	picture photo portrait photograph
+shot.n	injection jab vaccination inoculation
+show.v	indicate_to instruct guide demonstrate_to
+show.v	display reveal indicate do_not_appear present
+show.v	play display put_on present air exhibit
+show.v	display present illustrate
+show.v	be_displayed be_seen appear be_revealed come
+show.v	display reveal present depict
+show.v	indicate illustrate display
+show.v	play offer present air
+show.v	play present_with give
+show.v	indicate present illustrate picture display
+wind.v	coil coil wrap
+wind.v	twist weave snake meander bend
+wind.v	tease make_annoyed make_excited tighten make_mad mislead
+wind.v	end end_up finish_up
+wind.v	snake twist meander bend
+wind.v	end end_up finish_up
+wind.v	make_their_way wend progress proceed meander bend
+wind.v	knock_her_breathless knock_the_breath_out_of knock_the_air_out_of knock_the_wind_out_of choke
+wind.v	navigate wend snake twist_your_way weave proceed make_your_way bend
+wind.v	wrap coil
+work.v	engage look_at research employ investigate look_into labour
+work.v	be_employed labour
+work.v	collaborate engage be_employed be_occupied labour
+work.v	be_employed undertake_employment labour
+work.v	toil labour task
+work.v	cooperate engage operate collaborate act
+work.v	operate function move act
+work.v	cooperate operate participate collaborate act
+work.v	collaborate engage operate cooperate act
+work.v	operate function employ participate collaborate labour

@@ -1,0 +1,13 @@
+*.pyc
+output/
+*.output
+*.score
+*.log
+.DS_Store
+venv
+__pycache__
+.DS_Store
+*.egg-info
+.ipynb_checkpoints
+source.zip
+output.zip
