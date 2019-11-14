@@ -303,8 +303,8 @@ class SeriesExample(data.Example):
         return ex
 
 def biload(src_file, tgt_file, linesToLoad=50000, verbose=False):
-    src = open(src_file).read().strip().split("\n")
-    tgt = open(tgt_file).read().strip().split("\n")
+    src = open(src_file).read().lower().strip().split("\n")
+    tgt = open(tgt_file).read().lower().strip().split("\n")
     return list(map(lambda x: (x[0].strip().split(), x[1].strip().split()), zip(src, tgt)))[:linesToLoad]
 
 def bitext2Dataset(src, tgt, srcLex, tgtLex,
