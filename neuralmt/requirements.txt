@@ -1,3 +1,5 @@
+pip
+wheel
 numpy
 notebook
 jupyter_contrib_nbextensions
