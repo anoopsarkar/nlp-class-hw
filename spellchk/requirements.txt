@@ -1,0 +1,10 @@
+pip
+wheel
+setuptools
+notebook
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+ipywidgets
+torch
+transformers
+pylev
