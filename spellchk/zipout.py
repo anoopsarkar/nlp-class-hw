@@ -142,7 +142,7 @@ if __name__ == '__main__':
     argparser.add_argument("-x", "--pythonbin", dest="python_bin", default='venv/bin/python3', help="run this binary of Python to run the program [default: python3]")
     argparser.add_argument("-a", "--answerdir", dest="answer_dir", default='answer', help="answer directory [default: answer]")
     argparser.add_argument("-i", "--inputdir", dest="input_dir", default=os.path.join('data', 'input'), help="testcases directory [default: data/input]")
-    argparser.add_argument("-e", "--ending", dest="file_suffix", default='.tsv', help="suffix to use for testcases [default: .txt]")
+    argparser.add_argument("-e", "--ending", dest="file_suffix", default='.tsv', help="suffix to use for testcases [default: .tsv]")
     argparser.add_argument("-o", "--output", dest="output_dir", default='output', help="Save the output from the testcases to this directory.")
     argparser.add_argument("-z", "--zipfile", dest="zipfile", default='output', help="zip file with your output answers")
     argparser.add_argument("-l", "--logfile", dest="logfile", default=None, help="log file for debugging")
