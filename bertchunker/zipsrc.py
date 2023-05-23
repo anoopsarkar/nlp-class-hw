@@ -14,8 +14,8 @@ import sys, os, argparse, shutil, iocollect
 if __name__ == '__main__':
     argparser = argparse.ArgumentParser()
     argparser.add_argument("-a", "--answerdir", dest="answer_dir", default='answer', help="answer directory containing your source files")
-    argparser.add_argument("-s", "--srcfile", dest="src_file", default='spellchk.py', help="name of source file for homework")
-    argparser.add_argument("-n", "--notebook", dest="notebook_file", default='spellchk.ipynb', help="name of iPython notebook for homework")
+    argparser.add_argument("-s", "--srcfile", dest="src_file", default='bertchunker.py', help="name of source file for homework")
+    argparser.add_argument("-n", "--notebook", dest="notebook_file", default='bertchunker.ipynb', help="name of iPython notebook for homework")
     argparser.add_argument("-z", "--zipfile", dest="zipfile", default='source', help="zip file you should upload to Coursys (courses.cs.sfu.ca)")
     opts = argparser.parse_args()
     answer_files = iocollect.getfiles(opts.answer_dir)
