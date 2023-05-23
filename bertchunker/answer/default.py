@@ -209,6 +209,17 @@ class FinetuneTagger:
                         'ix_to_tag': self.ix_to_tag,
                     }, savefile)
 
+    def model_str(self):
+        if not os.path.isfile(self.modelfile + self.modelsuffix):
+            raise IOError(f"Error: missing model file {self.modelfile + self.modelsuffix}")
+
+        saved_model = torch.load(self.modelfile + self.modelsuffix)
+        tag_to_ix = saved_model['tag_to_ix']
+        ix_to_tag = saved_model['ix_to_tag']
+        model = TransformerModel(self.basemodel, len(tag_to_ix), lr=self.lr).to(device)
+        model.load_state_dict(saved_model['model_state_dict'])
+        return str(model)
+
     def decode(self, inputfile):
         if inputfile[-3:] == '.gz':
             with gzip.open(inputfile, 'rt') as f:
