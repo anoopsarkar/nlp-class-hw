@@ -63,8 +63,8 @@ evaluate your output on the test input after the submission deadline.
 The default solution is provided in `default.py`. To use the default
 as your solution:
 
-    cp default.py answer/chunker.py
-    cp default.ipynb answer/chunker.ipynb
+    cp default.py answer/bertchunker.py
+    cp default.ipynb answer/bertchunker.ipynb
     python3 zipout.py
     python3 check.py
 
