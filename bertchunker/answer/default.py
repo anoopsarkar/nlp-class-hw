@@ -65,7 +65,7 @@ class TransformerModel(nn.Module):
     def forward(self, sentence_input):
         encoded = self.encoder(sentence_input).last_hidden_state
         tag_space = self.classification_head(encoded)
-        tag_scores = F.log_softmax(tag_space, dim=1)
+        tag_scores = F.log_softmax(tag_space, dim=-1)
         # TODO modify the tag_scores to use the parameters of the crf_layer
         return tag_scores
 
@@ -259,8 +259,8 @@ if __name__ == '__main__':
     argparser.add_argument("-M", "--basemodel", dest="basemodel",
                             default='distilbert-base-uncased',
                             help="The base huggingface pretrained model to be used as the encoder.")
-    argparser.add_argument("-e", "--epochs", dest="epochs", type=int, default=1,
-                            help="number of epochs [default: 1]")
+    argparser.add_argument("-e", "--epochs", dest="epochs", type=int, default=5,
+                            help="number of epochs [default: 5]")
     argparser.add_argument("-b", "--batchsize", dest="batchsize", type=int, default=16,
                             help="batch size [default: 16]")
     argparser.add_argument("-r", "--lr", dest="lr", type=float, default=5e-5,
