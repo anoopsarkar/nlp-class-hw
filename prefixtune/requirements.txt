@@ -1,0 +1,13 @@
+pip
+wheel
+setuptools
+numpy
+notebook
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+transformers
+torch>=2.0.1
+datasets~=2.12.0
+tqdm
+sacrebleu
+accelerate

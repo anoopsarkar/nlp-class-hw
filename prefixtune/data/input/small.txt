@@ -1,0 +1,10 @@
+name : Alimentum | area : city centre | family friendly : no
+name : Alimentum | area : city centre | family friendly : no | near : Burger King
+name : Alimentum | area : city centre | family friendly : yes
+name : Alimentum | area : city centre | family friendly : yes | near : Burger King
+name : Alimentum | area : riverside | family friendly : no
+name : Alimentum | area : riverside | family friendly : no | near : Burger King
+name : Alimentum | area : riverside | family friendly : yes
+name : Alimentum | area : riverside | family friendly : yes | near : Burger King
+name : Aromi | Type : coffee shop | food : Chinese | customer rating : 1 out of 5 | area : riverside | family friendly : yes
+name : Aromi | Type : coffee shop | food : Chinese | customer rating : 3 out of 5 | area : riverside | family friendly : yes
