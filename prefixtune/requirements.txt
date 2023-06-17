@@ -11,3 +11,4 @@ datasets~=2.12.0
 tqdm
 sacrebleu
 accelerate
+peft

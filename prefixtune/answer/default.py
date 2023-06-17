@@ -2,9 +2,11 @@ import argparse, os, string, sys
 import torch
 import sacrebleu
 from tqdm import tqdm
-from transformers import AutoModelForCausalLM, AutoTokenizer, default_data_collator
-from datasets import load_dataset
 from pathlib import Path
+from transformers import AutoModelForCausalLM, AutoTokenizer, default_data_collator, get_linear_schedule_with_warmup
+from datasets import load_dataset
+from torch.utils.data import DataLoader
+# import peft
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -24,7 +26,7 @@ class TableToText:
         ):
         # the input sentences will be handled using this object, you do not need to manually encode input sentence words
         self.tokenizer = AutoTokenizer.from_pretrained(basemodel)
-        self.tokenizer_pad_token = self.tokenizer.eos_token_id \
+        self.tokenizer_pad_token_id = self.tokenizer.eos_token_id \
             if self.tokenizer.pad_token_id is None else self.tokenizer.pad_token_id
         self.traindata = traindata
         self.modelfile = modelfile
@@ -35,31 +37,35 @@ class TableToText:
         self.lr = lr
         self.virtualtokens = virtualtokens
         self.prefixprojection = prefixprojection
-        self.prompt = "tabletotext: "
+        self.prompt = "Convert the following table into English text: "
         self.training_data = []
         self.model = None # setup the model in self.decode() or self.train()
 
     def preprocess_function(self, examples):
+        text_column = "meaning_representation"
+        label_column = "human_reference"
+        max_length = 150
         batch_size = len(examples[text_column])
-        inputs = [f"{prompt_text}{x} {self.tokenizer.bos_token} " for x in examples[text_column]]
+        inputs = [f"{self.prompt}{x} {self.tokenizer.bos_token} " for x in examples[text_column]]
         targets = [f"{x} {self.tokenizer.eos_token}" for x in examples[label_column]]
         model_inputs = self.tokenizer(inputs)
         labels = self.tokenizer(targets)
         for i in range(batch_size):
             sample_input_ids = model_inputs["input_ids"][i]
-            label_input_ids = labels["input_ids"][i] + [self.tokenizer.pad_token_id]
+            label_input_ids = labels["input_ids"][i] + [self.tokenizer_pad_token_id]
             model_inputs["input_ids"][i] = sample_input_ids + label_input_ids
             labels["input_ids"][i] = [-100] * len(sample_input_ids) + label_input_ids
             model_inputs["attention_mask"][i] = [1] * len(model_inputs["input_ids"][i])
         for i in range(batch_size):
             sample_input_ids = model_inputs["input_ids"][i]
             label_input_ids = labels["input_ids"][i]
-            model_inputs["input_ids"][i] = [self.tokenizer.pad_token_id] * (
+            model_inputs["input_ids"][i] = [self.tokenizer_pad_token_id] * (
                     max_length - len(sample_input_ids)
             ) + sample_input_ids
-            model_inputs["attention_mask"][i] = [0] * (max_length - len(sample_input_ids)) + model_inputs[
-                "attention_mask"
-            ][i]
+            model_inputs["attention_mask"][i] = \
+                [0] * \
+                (max_length - len(sample_input_ids)) + \
+                model_inputs["attention_mask"][i]
             labels["input_ids"][i] = [-100] * (max_length - len(sample_input_ids)) + label_input_ids
             model_inputs["input_ids"][i] = torch.tensor(model_inputs["input_ids"][i][:max_length])
             model_inputs["attention_mask"][i] = torch.tensor(model_inputs["attention_mask"][i][:max_length])
@@ -96,8 +102,8 @@ class TableToText:
         return data_loaders
 
     def train(self):
-        data_loaders = get_data(splits=("train", ))
-        model = AutoModelForCausalLM.from_pretrained(model_name_or_path)
+        data_loaders = self.get_data(splits=("train", ))
+        model = AutoModelForCausalLM.from_pretrained(self.basemodel)
 
         # You can print the parameters for debugging or understanding the code
         # but make sure you comment it out otherwise it will pollute the output
@@ -109,11 +115,11 @@ class TableToText:
         # which will take num_virtual_tokens which is set to self.virtualtokens and
         # prefix_projection which is set to self.prefixprojection
 
-        optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
+        optimizer = torch.optim.AdamW(model.parameters(), lr=self.lr)
         lr_scheduler = get_linear_schedule_with_warmup(
             optimizer=optimizer,
             num_warmup_steps=0,
-            num_training_steps=(len(data_loaders["train"]) * num_epochs),
+            num_training_steps=(len(data_loaders["train"]) * self.epochs),
         )
         model = model.to(device)
 
@@ -153,7 +159,7 @@ class TableToText:
                 attention_mask=inputs["attention_mask"],
                 max_new_tokens=50,
                 eos_token_id=self.tokenizer.eos_token_id,
-                pad_token_id=self.tokenizer_pad_token,
+                pad_token_id=self.tokenizer_pad_token_id,
                 do_sample=True,
                 num_beams=5,
                 top_p=0.9,
@@ -170,7 +176,7 @@ if __name__ == '__main__':
                             default=os.path.join('data', 'input', 'dev.txt'),
                              help="produce table to text output for these input tables")
     argparser.add_argument("-t", "--traindata", dest="traindata",
-                            default=os.path.join('data', 'e2e_nlg_cleaned'),
+                            default='e2e_nlg_cleaned',
                             help="name of hugging face cleaned up dataset for the E2E table to text task")
     argparser.add_argument("-v", "--virtualtokens", dest="virtualtokens",
                             type=bool, default=5,
