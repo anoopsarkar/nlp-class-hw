@@ -222,19 +222,23 @@ if __name__ == '__main__':
     # TODO default.py always uses a prompt to produce output from the pretrained model
     # when you have implemented prefix tuning then change this to False to train and/or 
     # use your prefix tuned model
+    model = None
     if True:
         print(f"Loading the non-finetuned pre-trained model: {opts.basemodel}", file=sys.stderr)
         model = AutoModelForCausalLM.from_pretrained(opts.basemodel)
         model = model.to(device)
     else:
-        if not os.path.isfile(modelfile + opts.modelsuffix) or opts.force:
+        if not os.path.isdir(modelfile + opts.modelsuffix) or opts.force:
             print(f"Could not find modelfile {modelfile + opts.modelsuffix} or -f used. Starting training.", file=sys.stderr)
             table_to_text.train()
             print("Training done.", file=sys.stderr)
         # use the model file if available and opts.force is False
-        assert(os.path.isfile(modelfile + opts.modelsuffix))
+        assert(os.path.isdir(modelfile + opts.modelsuffix))
         print(f"Found modelfile {modelfile + opts.modelsuffix}. Starting decoding.", file=sys.stderr)
-        model = AutoModelForCausalLM.from_pretrained(modelfile + opts.modelsuffix)
+        model = AutoModelForCausalLM.from_pretrained(opts.basemodel)
+        # TODO: if using hf peft library for prefix tuning:
+        # model = PeftModel.from_pretrained(model, modelfile + opts.modelsuffix)
         model = model.to(device)
-    decoder_output = table_to_text.decode(model, opts.inputfile)
-    print("\n".join(decoder_output))
+    if model:
+        decoder_output = table_to_text.decode(model, opts.inputfile)
+        print("\n".join(decoder_output))
