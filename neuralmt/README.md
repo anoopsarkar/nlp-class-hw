@@ -7,8 +7,9 @@ attention to be equal, and the context vector takes simply the average of all
 encoder states.
 
 Before you can run the default solution, make sure you either download the
-pre-trained models from `https://jetic.org/cloud/s/YdofIN0CvuCAgux`, or access
-it on CSIL machine.
+pre-trained models from 
+
+    https://drive.google.com/drive/folders/1Gct8Jbb7bPLl9EhI5p1YvD2Bs5wzLxvJ?usp=sharing
 
 Once you've done that, create a symbolic link to all files in that zip file
 from `data/` using something like this (you don't need to unzip on CSIL
