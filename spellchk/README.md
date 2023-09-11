@@ -27,6 +27,10 @@ To create the `output.zip` file for upload to Coursys do:
 
     python3 zipout.py
 
+To run the default program:
+
+    python3 zipout.py -r default.py
+
 For more options:
 
     python3 zipout.py -h
