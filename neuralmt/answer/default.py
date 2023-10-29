@@ -13,12 +13,40 @@ import sys
 import optparse
 from tqdm import tqdm
 
+import spacy
+
 import torch
 from torch import nn
 from torchtext.vocab import build_vocab_from_iterator
+from torch.nn.utils.rnn import pad_sequence
+from torch.utils.data import DataLoader
 
-import support.hyperparams as hp
-from support.datasets import loadTestData, nl_export
+
+class hp:
+    pad_idx = 0
+    sos_idx = 1
+    eos_idx = 2
+    unk_idx = 3
+    lex_min_freq = 1
+
+    # architecture
+    hidden_dim = 256
+    embed_dim = 256
+    n_layers = 2
+    dropout = 0.2
+    batch_size = 32
+    num_epochs = 10
+    lexicon_cap = 25000
+
+    # training
+    max_lr = 1e-4
+    cycle_length = 3000
+
+    # generation
+    max_len = 50
+
+    # system
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # ---YOUR ASSIGNMENT---
 # -- Step 1: Baseline ---
@@ -54,7 +82,7 @@ class AttentionModule(nn.Module):
         """
         alpha = self.calcAlpha(decoder_hidden, encoder_out)
         seq, _, dim = encoder_out.shape
-        context = (torch.sum(encoder_out, dim=0)/seq).reshape(1, 1, dim)
+        context = (torch.sum(encoder_out, dim=0) / seq).reshape(1, 1, dim)
         return context, alpha.permute(2, 0, 1)
 
 
@@ -228,14 +256,108 @@ class Seq2Seq(nn.Module):
         self.build()
         self.load_state_dict(state_dict)
 
+# Load Tokeniser
+token_en = spacy.load("en_core_web_sm") # Load the English model to tokenize English text
+token_de = spacy.load("de_core_news_sm") # Load the German model to tokenize German text
+
+
+def tokenise_en(text):
+    """
+    Tokenize an English text and return a list of tokens
+    """
+    return [token.text for token in token_en.tokenizer(text)]
+
+
+def tokenise_de(text):
+    """
+    Tokenize a German text and return a list of tokens
+    """
+    return [token.text for token in token_de.tokenizer(text)]
+
+
+def nl_load(inFile, linesToLoad=sys.maxsize, tokeniser=None):
+    if tokeniser is not None:
+        return [tokeniser(e.lower().strip()) for e in open(inFile, 'r')][:linesToLoad]
+    else:
+        return [e.lower().strip().split() for e in open(inFile, 'r')][:linesToLoad]
+
+
+class Dataset(torch.utils.data.Dataset):
+    def __init__(self, src="../data/train.tok.de", tgt="../data/train.tok.en",
+                 srcLex=None, tgtLex=None, linesToLoad=sys.maxsize) -> None:
+        self.source = nl_load(src, linesToLoad, tokeniser=tokenise_de)
+        self.target = nl_load(tgt, linesToLoad, tokeniser=tokenise_en)
+        self.srcLex = srcLex
+        self.tgtLex = tgtLex
+        return
+
+    def __getitem__(self, idx) -> torch.Tensor:
+        # load one sample by index, e.g like this:
+        source_sample = self.source[idx]
+        target_sample = self.target[idx]
+        return source_sample, target_sample
+
+    def __len__(self):
+        return len(self.source)
+
+    def build_vocab(self):
+        """
+        Construct vocabulary for both src and tgt using loaded data, returns said
+        lex
+        """
+        def get_tokens(data_iter, place):
+            for de, en in data_iter:
+                if place == 0:
+                    yield de
+                else:
+                    yield en
+    
+        self.srcLex = build_vocab_from_iterator(
+            get_tokens(self, 0),
+            min_freq = hp.lex_min_freq,
+            specials = ['<pad>', '<sos>', '<eos>', '<unk>'],
+            special_first=True
+        )
+        self.srcLex.set_default_index(self.srcLex['<unk>'])
+        
+        self.tgtLex = build_vocab_from_iterator(
+            get_tokens(self, 1),
+            min_freq = hp.lex_min_freq,
+            specials = ['<pad>', '<sos>', '<eos>', '<unk>'],
+            special_first=True
+        )
+        self.tgtLex.set_default_index(self.tgtLex['<unk>'])
+        assert self.srcLex['<pad>'] == self.tgtLex['<pad>'] == hp.pad_idx
+        assert self.srcLex['<sos>'] == self.srcLex['<sos>'] == hp.sos_idx
+        assert self.srcLex['<eos>'] == self.srcLex['<eos>'] == hp.eos_idx
+        assert self.srcLex['<unk>'] == self.srcLex['<unk>'] == hp.unk_idx
+        return self.srcLex, self.tgtLex
+
+
+def collate_batch(batch, srcLex, tgtLex):
+    source, target = [], []
+    for f, e in batch:
+        source.append(torch.tensor([srcLex[f_tok] for f_tok in ['<sos>'] + f + ['<eos>']]))
+        target.append(torch.tensor([tgtLex[e_tok] for e_tok in ['<sos>'] + e + ['<eos>']]))
+
+    source = pad_sequence(source, padding_value=hp.pad_idx)
+    target = pad_sequence(target, padding_value=hp.pad_idx)
+    return source.to(hp.device), target.to(hp.device)
+
+
+def loadTestData(srcFile, srcLex, device=0, linesToLoad=sys.maxsize):
+    test_iter = Dataset(srcFile, srcFile, srcLex, srcLex, linesToLoad=linesToLoad)
+    test_dl = DataLoader(list(test_iter), batch_size=1, shuffle=False, 
+                         collate_fn=lambda batch:collate_batch(batch, srcLex, srcLex))
+    return test_dl
 
 if __name__ == '__main__':
     optparser = optparse.OptionParser()
     optparser.add_option(
-        "-m", "--model", dest="model",
+        "-m", "--model", dest="model", default=os.path.join('data', 'seq2seq_E049.pt'), 
         help="model file")
     optparser.add_option(
-        "-i", "--input", dest="input", default='./data/input/dev.txt',
+        "-i", "--input", dest="input", default=os.path.join('data', 'input', 'dev.txt'),
         help="input file")
     optparser.add_option(
         "-n", "--num", dest="num", default=sys.maxsize, type='int',
@@ -247,7 +369,9 @@ if __name__ == '__main__':
     model.to(hp.device)
     model.eval()
     # loading test dataset
+
     test_dl = loadTestData(opts.input, model.params['srcLex'],
                            device=hp.device, linesToLoad=opts.num)
     results = translate(model, test_dl)
-    nl_export(results, 'output.txt')
+    print("\n".join(results))
+

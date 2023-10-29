@@ -157,7 +157,7 @@ class FinetuneTagger:
             batch = []
             for tokenized_sentence, tags in train_iterator:
                 # Step 1. Get our inputs ready for the network, that is, turn them into
-                # Tensors of subword indices. Pre-trained ransformer based models come with their fixed
+                # Tensors of subword indices. Pre-trained transformer based models come with their fixed
                 # input tokenizer which in our case will receive the words in a sentence and will convert the words list
                 # into a list of subwords (e.g. you can look at https://aclanthology.org/P16-1162.pdf to get a better
                 # understanding about BPE subword vocabulary creation technique).
