@@ -5,3 +5,6 @@ log
 output
 output.zip
 source.zip
+answer/baseline.py
+answer/zhsegment.py
+answer/zhsegment.ipynb
