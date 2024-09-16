@@ -1,0 +1,12 @@
+wheel
+notebook
+jupyterthemes
+ipywidgets
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
+nltk
+gensim
+torch
