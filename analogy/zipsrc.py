@@ -14,8 +14,8 @@ import sys, os, optparse, shutil, iocollect
 if __name__ == '__main__':
     optparser = optparse.OptionParser()
     optparser.add_option("-a", "--answerdir", dest="answer_dir", default='answer', help="answer directory containing your source files")
-    optparser.add_option("-s", "--srcfile", dest="src_file", default='lexsub.py', help="name of source file for homework")
-    optparser.add_option("-n", "--notebook", dest="notebook_file", default='lexsub.ipynb', help="name of iPython notebook for homework")
+    optparser.add_option("-s", "--srcfile", dest="src_file", default='analogy.py', help="name of source file for homework")
+    optparser.add_option("-n", "--notebook", dest="notebook_file", default='analogy.ipynb', help="name of iPython notebook for homework")
     optparser.add_option("-z", "--zipfile", dest="zipfile", default='source', help="zip file you should upload to Coursys (courses.cs.sfu.ca)")
     (opts, _) = optparser.parse_args()
 
