@@ -149,7 +149,7 @@ if __name__ == '__main__':
     argparser.add_argument("-z", "--zipfile", dest="zipfile", default='output', help="zip file with your output answers")
     argparser.add_argument("-l", "--logfile", dest="logfile", default=None, help="log file for debugging")
     argparser.add_argument("-d", "--device", dest="device", default='cpu', help="optionally provide a cuda device")
-    argparser.add_argument("-m", "--model", dest="model", default=None, help="model to use with prefopt.py")
+    argparser.add_argument("-m", "--model", dest="model", default="Qwen/Qwen2.5-0.5B-Instruct", help="model to use with prefopt.py")
     opts = argparser.parse_args()
 
     if opts.logfile is not None:
