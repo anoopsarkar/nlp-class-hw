@@ -18,7 +18,7 @@ def decode_all(model, device, inputfile):
         }
     )
 
-    text = Path(inputfile).read_text().split('\n')
+    text = Path(inputfile).read_text().strip().split('\n')
     for line in tqdm(text, total=len(text)):
         line = line.strip()
         data = json.loads(line)
