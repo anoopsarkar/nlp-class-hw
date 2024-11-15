@@ -1,0 +1,15 @@
+pip
+wheel
+setuptools
+numpy
+notebook
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+transformers
+torch
+datasets
+tqdm
+sacrebleu
+trl
+peft
+bitsandbytes
