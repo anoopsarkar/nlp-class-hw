@@ -16,3 +16,6 @@ ensegment/answer/ensegment.ipynb
 zhsegment/answer/baseline.py
 zhsegment/answer/zhsegment.py
 zhsegment/answer/zhsegment.ipynb
+output/
+neuralmt/data/neuralmt.fa2023-models.zip
+bertchunker/data/archive/
