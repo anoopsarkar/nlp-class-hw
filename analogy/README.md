@@ -87,3 +87,9 @@ The data files provided are:
 * `data/reference/dev.out` -- reference output for the `dev.txt` input file
 * `data/train` -- training data to create your own lexicon files.
 
+
+## Downloading from gensim
+
+To get the word2vec model as a text file:
+
+    python -m gensim.downloader --download glove-wiki-gigaword-100
