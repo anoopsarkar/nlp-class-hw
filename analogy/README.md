@@ -65,8 +65,8 @@ evaluate your output on the test input after the submission deadline.
 The default solution is provided in `default.py`. To use the default
 as your solution:
 
-    cp default.py answer/lexsub.py
-    cp default.ipynb answer/lexsub.ipynb
+    cp default.py answer/analogy.py
+    cp default.ipynb answer/analogy.ipynb
     python zipout.py
     python check.py
 

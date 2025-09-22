@@ -22,7 +22,7 @@ if __name__ == '__main__':
     import os, optparse
     optparser = optparse.OptionParser()
     optparser.add_option("-t", "--refcases", dest="ref", default=os.path.join('data', 'reference', 'dev.out'), help="references [default: data/reference/dev.out]")
-    optparser.add_option("-o", "--outputfile", dest="output", default='output.txt', help="output file created by lexsub.py [default: output.txt]")
+    optparser.add_option("-o", "--outputfile", dest="output", default='output.txt', help="output file created by analogy.py [default: output.txt]")
     (opts, _) = optparser.parse_args()
 
     with open(opts.ref, 'rt') as refh:
