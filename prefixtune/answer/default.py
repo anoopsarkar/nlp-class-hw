@@ -179,7 +179,7 @@ if __name__ == '__main__':
                             default='e2e_nlg_cleaned',
                             help="name of hugging face cleaned up dataset for the E2E table to text task")
     argparser.add_argument("-v", "--virtualtokens", dest="virtualtokens",
-                            type=bool, default=5,
+                            type=int, default=5,
                             help="number of virtual prompt tokens for prefix tuning")
     argparser.add_argument("-p", "--prefixprojection", dest="prefixprojection",
                             action="store_true", default=False,
